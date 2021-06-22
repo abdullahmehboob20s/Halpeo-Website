@@ -1,0 +1,376 @@
+/*-------------
+Theme
+---------------*/
+
+@media screen and (max-width: 575px) {
+	body {
+		font-size: 16px;
+	}
+}
+
+@media screen and (min-width: 576px) and (max-width: 990px) {
+	body {
+		font-size: 17px;
+	}
+}
+
+@media screen and (min-width: 991px) {
+	body {
+		font-size: 19px;
+	}
+}
+	
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  
+    -webkit-font-smoothing: antialiased !important;
+    -ms-font-smoothing: antialiased !important;
+    -moz-font-smoothing: antialiased !important;
+    -moz-osx-font-smoothing: grayscale !important;
+    -o-font-smoothing: antialiased !important;
+
+    transition: all 0.1s ease;
+    -webkit-transition: all 0.1s ease;
+    -ms-transition: all 0.1s ease;
+    -moz-transition: all 0.1s ease;
+    -o-transition: all 0.1s ease;
+
+    --main-bg-color: #FFFFFF;
+    --main-act-color: #29C4A9;
+    --main-txt-color: #335451;
+    --main-tit-color: #002925;
+  
+    --one-bg-color: #E6EDED;
+    --two-bg-color: #FAF0E9;
+    --three-bg-color: #D9E8DF;
+    --four-bg-color: #FFF0D6;
+	
+	  --sec-bg-one-color: #009DFF;
+    --sec-bg-two-color: #FABD24;
+    --sec-bg-three-color: #F27862;
+    --sec-bg-four-color: #09B360;
+	  --sec-bg-five-color: #B857A8;
+	
+	
+	  --size-16px: 0.8421rem;
+	  --size-19px: 1rem;
+		--size-21px: 1.105rem;
+		--size-22px: 1.158rem;
+	  --size-23px: 1.211rem;
+	  --size-24px: 1.263rem;
+		--size-28px: 1.474rem;
+	  --size-30px: 1.579rem;
+		--size-32px: 1.684rem;
+	  --size-34px: 1.789rem;
+	  --size-36px: 1.895rem;
+	  --size-40px: 2.105rem;
+	  --size-42px: 2.211rem;
+	  --size-46px: 2.421rem;
+		--size-48px: 2.526rem;
+	  --size-52px: 2.737rem;
+		--size-58px: 3.053rem;
+		--size-62px: 3.263rem;
+		--size-64px: 3.368rem;
+		--size-83px: 4.368rem;
+}
+/*-------------
+Fonts
+---------------*/
+
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:wght@700&display=swap');
+
+* {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, Helvetica, Roboto, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    color: var(--main-txt-color);
+}
+
+*:target:before {
+    content: "";
+    display: block;
+    height: 200px;
+    margin: -200px 0 0;
+}
+
+
+/*-------------
+Responsive Grid & Layout
+https://drafts.csswg.org/css-flexbox-1/#flex-wrap-property
+---------------*/
+
+main, footer {
+    padding: 30px auto;
+    padding: 0;
+}
+
+section {
+  width: 100%;
+  height: auto;
+  margin: 0px auto;
+  padding: 100px 50px;
+}
+
+.row {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	flex-flow: row wrap; 
+	justify-content: start;
+	max-width: 1440px;
+	margin: 0 auto;
+}
+
+.row.reverse {
+	flex-direction: row-reverse;
+}
+
+.row.center {
+	justify-content: center;
+}
+
+.row.between {
+	justify-content: space-between;
+}
+
+.row.around {
+	justify-content: space-around;
+}
+
+.row::after {
+	content: "";
+	clear: both;
+	display: table;
+}
+
+/* For mobile phones: */
+[class*="col-"] {
+  margin: 0 auto;
+  padding: 15px;
+  border: none;
+	width: 100%;
+}
+
+@media only screen and (min-width: 576px) {
+  /* Extra Small Screen: */
+  [class*="col-"] {
+    width: 100%;
+  }
+  [class*="col-12-"] {
+    content: "";
+    clear: both;
+    display: table;
+		display: flex;
+    flex-flow: column;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  /* Small Screen: */
+  .col-1-sm {width: 8.33%;}
+  .col-2-sm {width: 16.66%;}
+  .col-3-sm {width: 25%;}
+  .col-4-sm {width: 33.33%;}
+  .col-5-sm {width: 41.66%;}
+  .col-6-sm {width: 50%;}
+  .col-7-sm {width: 58.33%;}
+  .col-8-sm {width: 66.66%;}
+  .col-9-sm {width: 75%;}
+  .col-10-sm {width: 83.33%;}
+  .col-11-sm {width: 91.66%;}
+  .col-12-sm {width: 100%;}
+}
+
+@media only screen and (min-width: 992px) {
+  /* Medium: */
+  .col-1-md {width: 8.33%;}
+  .col-2-md {width: 16.66%;}
+  .col-3-md {width: 25%;}
+  .col-4-md {width: 33.33%;}
+  .col-5-md {width: 41.66%;}
+  .col-6-md {width: 50%;}
+  .col-7-md {width: 58.33%;}
+  .col-8-md {width: 66.66%;}
+  .col-9-md {width: 75%;}
+  .col-10-md {width: 83.33%;}
+  .col-11-md {width: 91.66%;}
+  .col-12-md {width: 100%;}
+}
+
+@media only screen and (min-width: 1200px) {
+  /* Large Screen: */
+  .col-1-lg {width: 8.33%;}
+  .col-2-lg {width: 16.66%;}
+  .col-3-lg {width: 25%;}
+  .col-4-lg {width: 33.33%;}
+  .col-5-lg {width: 41.66%;}
+  .col-6-lg {width: 50%;}
+  .col-7-lg {width: 58.33%;}
+  .col-8-lg {width: 66.66%;}
+  .col-9-lg {width: 75%;}
+  .col-10-lg {width: 83.33%;}
+  .col-11-lg {width: 91.66%;}
+  .col-12-lg {width: 100%;}
+}
+
+@media only screen and (min-width: 1400px) {
+  /* Extra Large Screen: */
+  .col-1-xl {width: 8.33%;}
+  .col-2-xl {width: 16.66%;}
+  .col-3-xl {width: 25%;}
+  .col-4-xl {width: 33.33%;}
+  .col-5-xl {width: 41.66%;}
+  .col-6-xl {width: 50%;}
+  .col-7-xl {width: 58.33%;}
+  .col-8-xl {width: 66.66%;}
+  .col-9-xl {width: 75%;}
+  .col-10-xl {width: 83.33%;}
+  .col-11-xl {width: 91.66%;}
+  .col-12-xl {width: 100%;}
+}
+
+/*-------------
+Typography
+https://www.sitepoint.com/understanding-and-using-rem-units-in-css/
+---------------*/
+  
+h1, h2, h3, h4, h5, h6, blockquote, p.paragraph {
+  font-family: 'PT Serif', serif;
+  color: var(--main-tit-color);
+  margin: var(--size-16px) 0px; 
+}
+
+
+h1 {
+  font-size: var(--size-64px); /*64px*/
+  font-weight: 700;
+  line-height: var(--size-83px); /*83px*/
+  letter-spacing: -1.5;
+}
+
+h2 {
+  font-size: var(--size-48px); /*48px*/
+  font-weight: 700;
+  line-height: var(--size-58px); /*58px*/
+  letter-spacing: -1.5;
+}
+
+h3 {
+  font-size: var(--size-42px); /*42px*/
+  font-weight: 700;
+  line-height: var(--size-52px); /*52px*/
+  letter-spacing: -1.2;
+}
+
+h4 {
+  font-size: var(--size-36px); /*36px*/
+  font-weight: 700;
+  line-height: var(--size-46px); /*46px*/
+  letter-spacing: -1;
+}
+
+h5 {
+  font-size: var(--size-30px); /*30px*/
+  font-weight: 700;
+  line-height: var(--size-40px); /*40px*/
+  letter-spacing: 0;
+}
+
+h6 {
+  font-size: var(--size-24px); /*24px*/
+  font-weight: 700;
+  line-height: var(--size-34px); /*34px*/
+  letter-spacing: 0;
+}
+
+blockquote {
+  font-size: var(--size-22px); /*22px*/
+  font-weight: normal;
+  line-height: var(--size-32px); /*32px*/
+  letter-spacing: 0;
+}
+
+blockquote.medium {
+  font-size: var(--size-48px); /*48px*/
+  font-weight: normal;
+  line-height: var(--size-62px); /*62px*/
+  letter-spacing: -1.5;
+}
+
+p.paragraph {
+	font-size: var(--size-23px); /*23px*/
+  font-weight: 700;
+  line-height: var(--size-32px); /*32px*/
+  letter-spacing: -0.5;
+}
+
+p {
+  font-size: var(--size-19px); /*19px*/
+  font-weight: 400;
+  line-height: var(--size-28px); /*28px*/
+  letter-spacing: 0;
+  color: var(--main-txt-color);
+
+  margin: var(--size-16px) 0px;
+}
+
+a {
+  font-size: var(--size-22px); /*22px*/
+  font-weight: bold;
+  line-height: var(--size-32px); /*32px*/
+  letter-spacing: -0.75;
+  color: var(--main-act-color);
+
+  margin: var(--size-16px) 0px;
+}
+
+p a {
+  margin: inherit;
+}
+
+div.pretitle {
+  font-size: var(--size-22px); /*19px*/
+  font-weight: bold;
+  line-height: var(--size-28px); /*28px*/
+  letter-spacing: 0;
+  text-transform: uppercase;
+  color: var(--main-act-color);
+
+  margin: var(--size-16px) 0px;
+}
+
+.center {
+  text-align: center;
+}
+
+/*-------------
+Accessibility
+---------------*/
+
+@media only screen and (max-width: 576px) {
+	div.pretitle {
+		color: var(--main-txt-color);
+	}
+	a {
+		color: var(--main-tit-color);
+	}
+}
+@media only screen and (min-width: 577px) and (max-width: 768px) {
+
+}
+@media only screen and (min-width: 992px) {
+
+}
+@media only screen and (min-width: 1200px) {
+
+}
+@media only screen and (min-width: 1400px) {
+
+}
+
+
+/*-------------
+ADDITIONAL
+---------------*/
+  
+  
