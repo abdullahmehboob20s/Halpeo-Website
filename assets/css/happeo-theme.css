@@ -820,6 +820,11 @@ ADDITIONAL
 
 .communication_stratigy_content{
   flex: 1;
+  /* border: 2px solid red; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .communication_stratigy_image{
   flex: 1;
