@@ -536,14 +536,21 @@ ADDITIONAL
 /* =============================================================================================== */
 /* =============================================================================================== */
 
+.main-tit-color {
+  background-color: var(--main-tit-color);
+}
+.three-bg-color {
+  background-color: var(--three-bg-color);
+}
+
 .hero_wrapper_parent {
   margin-bottom: 10rem;
 }
 
 .hero_section {
-  background-color: var(--main-tit-color);
   position: relative;
   padding-bottom: 15rem;
+  /* border: attr(); */
 }
 
 /* .wave {
@@ -559,7 +566,7 @@ ADDITIONAL
 
 .hero_section_titles h1:nth-child(1) {
   width: 90%;
-  max-width: 750px;
+  /* max-width: 750px; */
   text-align: center;
   margin: 0 auto;
   font-size: var(--size-83px);
@@ -578,6 +585,13 @@ ADDITIONAL
   width: 90%;
   max-width: 600px;
   margin: 0 auto;
+}
+.hero_section_titles h5 {
+  text-align: center;
+  width: 90%;
+  max-width: 850px;
+  margin: 0 auto;
+  font-weight: 400;
 }
 
 .hero_section_titles_btn {
@@ -1148,4 +1162,103 @@ ADDITIONAL
 .footer_terms p {
   color: white;
   padding: 0 1rem;
+}
+
+/* ============================================================================================= */
+/* ============================================================================================= */
+/* ============================================================================================= */
+/* ============================================================================================= */
+/* ======================================== index-2-group-1 ========================================  */
+/* ============================================================================================= */
+/* ============================================================================================= */
+/* ============================================================================================= */
+/* ============================================================================================= */
+
+.index-2 {
+  color: var(--main-tit-color);
+}
+
+.index-2 h1,
+.index-2 p,
+.index-2 a {
+  color: var(--main-tit-color);
+}
+
+.organization_challenges_cards_post_articels {
+  width: 100%;
+  max-width: 500px;
+  background-color: var(--four-bg-color);
+  margin-top: 2.5rem;
+  border-radius: 10px;
+  padding: 1rem;
+}
+
+.organization_challenges_cards_post_articels p {
+  font-weight: 600;
+  font-size: 1.4rem;
+  color: var(--main-txt-color);
+  line-height: 1.5;
+}
+
+.organization_challenges_cards_list {
+  list-style-type: none;
+  margin-top: 2rem;
+}
+
+.organization_challenges_cards_list li {
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.organization_challenges_cards_link {
+  display: block;
+  color: var(--main-act-color);
+  text-decoration: none;
+  margin-top: 4.5rem;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.organization_challenges_index_2_image {
+  flex: 1;
+}
+.organization_challenges_index_2_image img {
+  width: 100%;
+}
+
+.organization_challenges_index_2_content {
+  flex: 1;
+}
+
+.organization_challenges_index_2_content h6 {
+  color: var(--main-txt-color);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, Helvetica,
+    Roboto, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  margin-top: 2rem;
+}
+
+/* =============================================================================================== */
+/* ===================================== tired_of_scrolling ============================================ */
+/* =============================================================================================== */
+
+.tired_of_scrolling {
+  background-color: var(--two-bg-color);
+  margin-top: 8rem;
+}
+
+.tired_of_scrolling_wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 3rem 0;
+}
+
+.tired_of_scrolling_wrapper_btn {
+  padding: 13px 30px;
+  background-color: var(--main-act-color);
+  border-radius: 5px;
+  color: var(--one-bg-color);
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
 }
