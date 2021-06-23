@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40px" height="41px" viewBox="0 0 40 41" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Shape Copy</title>
+    <defs>
+        <linearGradient x1="71.05625%" y1="79.3906197%" x2="11.8934741%" y2="2.27710202%" id="linearGradient-1">
+            <stop stop-color="#00BA9A" offset="0%"></stop>
+            <stop stop-color="#00F4E0" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Third-Party-Integration" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g transform="translate(-528.000000, -1161.000000)" fill="url(#linearGradient-1)" fill-rule="nonzero" id="S1">
+            <g transform="translate(128.000000, 906.160529)">
+                <g id="Group-11" transform="translate(0.000000, 255.000000)">
+                    <g id="Group-8" transform="translate(400.000000, 0.000000)">
+                        <path d="M18.3333333,14.32 L18.3333333,0 C8.14814815,1 0,9.58 0,20 C0,30.42 8.14814815,39 18.3333333,40 L18.3333333,25.68 C16.2962963,24.86 14.2592593,22.64 14.2592593,20 C14.2592593,17.36 16.2962963,15.14 18.3333333,14.32 Z M25.4555556,18.3333333 L40,18.3333333 C39.0222222,8.65740741 31.8518519,0.957407407 21.6666667,0 L21.6666667,14.5851852 C23.7037037,15.1962963 24.762963,16.5814815 25.4555556,18.3333333 Z M21.6666667,25.4148148 L21.6666667,40 C31.8518519,39.0425926 39.0222222,31.3425926 40,21.6666667 L25.4555556,21.6666667 C24.762963,23.4185185 23.7037037,24.8037037 21.6666667,25.4148148 Z" id="Shape-Copy"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

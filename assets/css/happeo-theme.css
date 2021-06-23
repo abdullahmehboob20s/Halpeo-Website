@@ -3,105 +3,105 @@ Theme
 ---------------*/
 
 @media screen and (max-width: 575px) {
-	body {
-		font-size: 16px;
-	}
+  body {
+    font-size: 16px;
+  }
 }
 
 @media screen and (min-width: 576px) and (max-width: 990px) {
-	body {
-		font-size: 17px;
-	}
+  body {
+    font-size: 17px;
+  }
 }
 
 @media screen and (min-width: 991px) {
-	body {
-		font-size: 19px;
-	}
+  body {
+    font-size: 19px;
+  }
 }
-	
+
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-  
-    -webkit-font-smoothing: antialiased !important;
-    -ms-font-smoothing: antialiased !important;
-    -moz-font-smoothing: antialiased !important;
-    -moz-osx-font-smoothing: grayscale !important;
-    -o-font-smoothing: antialiased !important;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 
-    transition: all 0.1s ease;
-    -webkit-transition: all 0.1s ease;
-    -ms-transition: all 0.1s ease;
-    -moz-transition: all 0.1s ease;
-    -o-transition: all 0.1s ease;
+  -webkit-font-smoothing: antialiased !important;
+  -ms-font-smoothing: antialiased !important;
+  -moz-font-smoothing: antialiased !important;
+  -moz-osx-font-smoothing: grayscale !important;
+  -o-font-smoothing: antialiased !important;
 
-    --main-bg-color: #FFFFFF;
-    --main-act-color: #29C4A9;
-    --main-txt-color: #335451;
-    --main-tit-color: #002925;
-  
-    --one-bg-color: #E6EDED;
-    --two-bg-color: #FAF0E9;
-    --three-bg-color: #D9E8DF;
-    --four-bg-color: #FFF0D6;
-	
-	  --sec-bg-one-color: #009DFF;
-    --sec-bg-two-color: #FABD24;
-    --sec-bg-three-color: #F27862;
-    --sec-bg-four-color: #09B360;
-	  --sec-bg-five-color: #B857A8;
-	
-	
-	  --size-16px: 0.8421rem;
-	  --size-19px: 1rem;
-		--size-21px: 1.105rem;
-		--size-22px: 1.158rem;
-	  --size-23px: 1.211rem;
-	  --size-24px: 1.263rem;
-		--size-28px: 1.474rem;
-	  --size-30px: 1.579rem;
-		--size-32px: 1.684rem;
-	  --size-34px: 1.789rem;
-	  --size-36px: 1.895rem;
-	  --size-40px: 2.105rem;
-	  --size-42px: 2.211rem;
-	  --size-46px: 2.421rem;
-		--size-48px: 2.526rem;
-	  --size-52px: 2.737rem;
-		--size-58px: 3.053rem;
-		--size-62px: 3.263rem;
-		--size-64px: 3.368rem;
-		--size-83px: 4.368rem;
+  transition: all 0.1s ease;
+  -webkit-transition: all 0.1s ease;
+  -ms-transition: all 0.1s ease;
+  -moz-transition: all 0.1s ease;
+  -o-transition: all 0.1s ease;
+
+  --main-bg-color: #ffffff;
+  --main-act-color: #29c4a9;
+  --main-txt-color: #335451;
+  --main-tit-color: #002925;
+
+  --one-bg-color: #e6eded;
+  --two-bg-color: #faf0e9;
+  --three-bg-color: #d9e8df;
+  --four-bg-color: #fff0d6;
+
+  --sec-bg-one-color: #009dff;
+  --sec-bg-two-color: #fabd24;
+  --sec-bg-three-color: #f27862;
+  --sec-bg-four-color: #09b360;
+  --sec-bg-five-color: #b857a8;
+
+  --size-16px: 0.8421rem;
+  --size-19px: 1rem;
+  --size-21px: 1.105rem;
+  --size-22px: 1.158rem;
+  --size-23px: 1.211rem;
+  --size-24px: 1.263rem;
+  --size-28px: 1.474rem;
+  --size-30px: 1.579rem;
+  --size-32px: 1.684rem;
+  --size-34px: 1.789rem;
+  --size-36px: 1.895rem;
+  --size-40px: 2.105rem;
+  --size-42px: 2.211rem;
+  --size-46px: 2.421rem;
+  --size-48px: 2.526rem;
+  --size-52px: 2.737rem;
+  --size-58px: 3.053rem;
+  --size-62px: 3.263rem;
+  --size-64px: 3.368rem;
+  --size-83px: 4.368rem;
 }
 /*-------------
 Fonts
 ---------------*/
 
-@import url('https://fonts.googleapis.com/css2?family=PT+Serif:wght@700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=PT+Serif:wght@700&display=swap");
 
 * {
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, Helvetica, Roboto, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-    color: var(--main-txt-color);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, Helvetica,
+    Roboto, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  color: var(--main-txt-color);
 }
 
 *:target:before {
-    content: "";
-    display: block;
-    height: 200px;
-    margin: -200px 0 0;
+  content: "";
+  display: block;
+  height: 200px;
+  margin: -200px 0 0;
 }
-
 
 /*-------------
 Responsive Grid & Layout
 https://drafts.csswg.org/css-flexbox-1/#flex-wrap-property
 ---------------*/
 
-main, footer {
-    padding: 30px auto;
-    padding: 0;
+main,
+footer {
+  padding: 30px auto;
+  padding: 0;
 }
 
 section {
@@ -112,35 +112,35 @@ section {
 }
 
 .row {
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	flex-flow: row wrap; 
-	justify-content: start;
-	max-width: 1440px;
-	margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  flex-flow: row wrap;
+  justify-content: start;
+  max-width: 1440px;
+  margin: 0 auto;
 }
 
 .row.reverse {
-	flex-direction: row-reverse;
+  flex-direction: row-reverse;
 }
 
 .row.center {
-	justify-content: center;
+  justify-content: center;
 }
 
 .row.between {
-	justify-content: space-between;
+  justify-content: space-between;
 }
 
 .row.around {
-	justify-content: space-around;
+  justify-content: space-around;
 }
 
 .row::after {
-	content: "";
-	clear: both;
-	display: table;
+  content: "";
+  clear: both;
+  display: table;
 }
 
 /* For mobile phones: */
@@ -148,7 +148,7 @@ section {
   margin: 0 auto;
   padding: 15px;
   border: none;
-	width: 100%;
+  width: 100%;
 }
 
 @media only screen and (min-width: 576px) {
@@ -160,86 +160,188 @@ section {
     content: "";
     clear: both;
     display: table;
-		display: flex;
+    display: flex;
     flex-flow: column;
   }
 }
 
 @media only screen and (min-width: 768px) {
   /* Small Screen: */
-  .col-1-sm {width: 8.33%;}
-  .col-2-sm {width: 16.66%;}
-  .col-3-sm {width: 25%;}
-  .col-4-sm {width: 33.33%;}
-  .col-5-sm {width: 41.66%;}
-  .col-6-sm {width: 50%;}
-  .col-7-sm {width: 58.33%;}
-  .col-8-sm {width: 66.66%;}
-  .col-9-sm {width: 75%;}
-  .col-10-sm {width: 83.33%;}
-  .col-11-sm {width: 91.66%;}
-  .col-12-sm {width: 100%;}
+  .col-1-sm {
+    width: 8.33%;
+  }
+  .col-2-sm {
+    width: 16.66%;
+  }
+  .col-3-sm {
+    width: 25%;
+  }
+  .col-4-sm {
+    width: 33.33%;
+  }
+  .col-5-sm {
+    width: 41.66%;
+  }
+  .col-6-sm {
+    width: 50%;
+  }
+  .col-7-sm {
+    width: 58.33%;
+  }
+  .col-8-sm {
+    width: 66.66%;
+  }
+  .col-9-sm {
+    width: 75%;
+  }
+  .col-10-sm {
+    width: 83.33%;
+  }
+  .col-11-sm {
+    width: 91.66%;
+  }
+  .col-12-sm {
+    width: 100%;
+  }
 }
 
 @media only screen and (min-width: 992px) {
   /* Medium: */
-  .col-1-md {width: 8.33%;}
-  .col-2-md {width: 16.66%;}
-  .col-3-md {width: 25%;}
-  .col-4-md {width: 33.33%;}
-  .col-5-md {width: 41.66%;}
-  .col-6-md {width: 50%;}
-  .col-7-md {width: 58.33%;}
-  .col-8-md {width: 66.66%;}
-  .col-9-md {width: 75%;}
-  .col-10-md {width: 83.33%;}
-  .col-11-md {width: 91.66%;}
-  .col-12-md {width: 100%;}
+  .col-1-md {
+    width: 8.33%;
+  }
+  .col-2-md {
+    width: 16.66%;
+  }
+  .col-3-md {
+    width: 25%;
+  }
+  .col-4-md {
+    width: 33.33%;
+  }
+  .col-5-md {
+    width: 41.66%;
+  }
+  .col-6-md {
+    width: 50%;
+  }
+  .col-7-md {
+    width: 58.33%;
+  }
+  .col-8-md {
+    width: 66.66%;
+  }
+  .col-9-md {
+    width: 75%;
+  }
+  .col-10-md {
+    width: 83.33%;
+  }
+  .col-11-md {
+    width: 91.66%;
+  }
+  .col-12-md {
+    width: 100%;
+  }
 }
 
 @media only screen and (min-width: 1200px) {
   /* Large Screen: */
-  .col-1-lg {width: 8.33%;}
-  .col-2-lg {width: 16.66%;}
-  .col-3-lg {width: 25%;}
-  .col-4-lg {width: 33.33%;}
-  .col-5-lg {width: 41.66%;}
-  .col-6-lg {width: 50%;}
-  .col-7-lg {width: 58.33%;}
-  .col-8-lg {width: 66.66%;}
-  .col-9-lg {width: 75%;}
-  .col-10-lg {width: 83.33%;}
-  .col-11-lg {width: 91.66%;}
-  .col-12-lg {width: 100%;}
+  .col-1-lg {
+    width: 8.33%;
+  }
+  .col-2-lg {
+    width: 16.66%;
+  }
+  .col-3-lg {
+    width: 25%;
+  }
+  .col-4-lg {
+    width: 33.33%;
+  }
+  .col-5-lg {
+    width: 41.66%;
+  }
+  .col-6-lg {
+    width: 50%;
+  }
+  .col-7-lg {
+    width: 58.33%;
+  }
+  .col-8-lg {
+    width: 66.66%;
+  }
+  .col-9-lg {
+    width: 75%;
+  }
+  .col-10-lg {
+    width: 83.33%;
+  }
+  .col-11-lg {
+    width: 91.66%;
+  }
+  .col-12-lg {
+    width: 100%;
+  }
 }
 
 @media only screen and (min-width: 1400px) {
   /* Extra Large Screen: */
-  .col-1-xl {width: 8.33%;}
-  .col-2-xl {width: 16.66%;}
-  .col-3-xl {width: 25%;}
-  .col-4-xl {width: 33.33%;}
-  .col-5-xl {width: 41.66%;}
-  .col-6-xl {width: 50%;}
-  .col-7-xl {width: 58.33%;}
-  .col-8-xl {width: 66.66%;}
-  .col-9-xl {width: 75%;}
-  .col-10-xl {width: 83.33%;}
-  .col-11-xl {width: 91.66%;}
-  .col-12-xl {width: 100%;}
+  .col-1-xl {
+    width: 8.33%;
+  }
+  .col-2-xl {
+    width: 16.66%;
+  }
+  .col-3-xl {
+    width: 25%;
+  }
+  .col-4-xl {
+    width: 33.33%;
+  }
+  .col-5-xl {
+    width: 41.66%;
+  }
+  .col-6-xl {
+    width: 50%;
+  }
+  .col-7-xl {
+    width: 58.33%;
+  }
+  .col-8-xl {
+    width: 66.66%;
+  }
+  .col-9-xl {
+    width: 75%;
+  }
+  .col-10-xl {
+    width: 83.33%;
+  }
+  .col-11-xl {
+    width: 91.66%;
+  }
+  .col-12-xl {
+    width: 100%;
+  }
 }
 
 /*-------------
 Typography
 https://www.sitepoint.com/understanding-and-using-rem-units-in-css/
 ---------------*/
-  
-h1, h2, h3, h4, h5, h6, blockquote, p.paragraph {
-  font-family: 'PT Serif', serif;
-  color: var(--main-tit-color);
-  margin: var(--size-16px) 0px; 
-}
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+blockquote,
+p.paragraph {
+  font-family: "PT Serif", serif;
+  color: var(--main-tit-color);
+  margin: var(--size-16px) 0px;
+}
 
 h1 {
   font-size: var(--size-64px); /*64px*/
@@ -298,7 +400,7 @@ blockquote.medium {
 }
 
 p.paragraph {
-	font-size: var(--size-23px); /*23px*/
+  font-size: var(--size-23px); /*23px*/
   font-weight: 700;
   line-height: var(--size-32px); /*32px*/
   letter-spacing: -0.5;
@@ -348,29 +450,433 @@ Accessibility
 ---------------*/
 
 @media only screen and (max-width: 576px) {
-	div.pretitle {
-		color: var(--main-txt-color);
-	}
-	a {
-		color: var(--main-tit-color);
-	}
+  div.pretitle {
+    color: var(--main-txt-color);
+  }
+  a {
+    color: var(--main-tit-color);
+  }
 }
 @media only screen and (min-width: 577px) and (max-width: 768px) {
-
 }
 @media only screen and (min-width: 992px) {
-
 }
 @media only screen and (min-width: 1200px) {
-
 }
 @media only screen and (min-width: 1400px) {
-
 }
-
 
 /*-------------
 ADDITIONAL
 ---------------*/
-  
-  
+
+/* ============================================================================================= */
+/* ============================================================================================= */
+/* ============================================================================================= */
+/* ============================================================================================= */
+/* ======================================== index page ========================================  */
+/* ============================================================================================= */
+/* ============================================================================================= */
+/* ============================================================================================= */
+/* ============================================================================================= */
+
+.container-wrapper {
+  width: 90%;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+/* ===================================== header ============================================ */
+
+.header {
+  background-color: transparent;
+}
+.header_wrapper {
+  width: 100%;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 50px;
+}
+.header_links {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header_img {
+  width: 220px;
+}
+
+.header_links a {
+  margin: 0 10px;
+  color: var(--main-bg-color);
+  text-decoration: none;
+  font-weight: 400;
+}
+.header_login_btn {
+  color: var(--main-bg-color);
+  text-decoration: none;
+  font-weight: 400;
+  margin-right: 20px;
+}
+.header_requets_btn {
+  padding: 13px 30px;
+  background-color: var(--main-act-color);
+  border-radius: 5px;
+  color: var(--one-bg-color);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* =============================================================================================== */
+/* =============================================================================================== */
+/* ===================================== hero_section ============================================ */
+/* =============================================================================================== */
+/* =============================================================================================== */
+
+.hero_wrapper_parent {
+  margin-bottom: 10rem;
+}
+
+.hero_section {
+  background-color: var(--main-tit-color);
+  position: relative;
+  padding-bottom: 15rem;
+}
+
+/* .wave {
+  position: absolute;
+  top: 100%;
+  fill: var(--main-tit-color);
+} */
+
+.hero_section_titles h1,
+.hero_section_titles p {
+  color: var(--main-bg-color);
+}
+
+.hero_section_titles h1:nth-child(1) {
+  width: 90%;
+  max-width: 750px;
+  text-align: center;
+  margin: 0 auto;
+  font-size: var(--size-83px);
+  margin-bottom: var(--size-16px);
+}
+.hero_section_titles h1:nth-child(2) {
+  width: 90%;
+  text-align: center;
+  margin: 0 auto;
+  font-size: var(--size-83px);
+  margin-bottom: var(--size-30px);
+}
+
+.hero_section_titles p {
+  text-align: center;
+  width: 90%;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.hero_section_titles_btn {
+  display: flex;
+  justify-content: center;
+  margin-top: var(--size-30px);
+}
+
+.hero_section_titles_btn a:nth-child(1) {
+  padding: 13px 30px;
+  background-color: var(--main-act-color);
+  border-radius: 5px;
+  color: var(--one-bg-color);
+  text-decoration: none;
+  font-weight: bold;
+  margin-right: var(--size-19px);
+}
+
+.hero_section_titles_btn a:nth-child(2) {
+  padding: 13px 30px;
+  border: 2px solid var(--main-act-color);
+  background-color: transparent;
+  border-radius: 5px;
+  color: var(--main-act-color);
+  text-decoration: none;
+  font-weight: bold;
+  margin-right: var(--size-19px);
+}
+
+.hero_google_link {
+  display: flex;
+  justify-content: center;
+}
+
+.hero_google_link a {
+  display: flex;
+  align-items: center;
+  color: var(--main-bg-color);
+  text-decoration: none;
+  font-weight: 400;
+}
+
+.hero_google_link a img {
+  width: 20px;
+  margin-right: var(--size-16px);
+}
+
+.hero_wrapper_image {
+  display: block;
+  width: 90%;
+  margin: 0 auto;
+  margin-top: -30rem;
+  z-index: 1000000;
+  position: relative;
+}
+
+
+/* =============================================================================================== */
+/* =============================================================================================== */
+/* ===================================== followed_by ============================================ */
+/* =============================================================================================== */
+/* =============================================================================================== */
+
+.followed_by{
+}
+.followed_by_wrapper{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.followed_by_wrapper img{
+  margin: var(--size-16px);
+}
+
+
+/* =============================================================================================== */
+/* =============================================================================================== */
+/* ===================================== organization_challenges ============================================ */
+/* =============================================================================================== */
+/* =============================================================================================== */
+
+.organization_challenges{
+  margin-top: 10rem;
+}
+
+.organization_challenges_wrapper{
+  display: flex;
+}
+
+.organization_challenges_content{
+  flex: 1;
+  padding-right: 4rem;
+}
+
+.organization_challenges_content h6{
+   color: var(--main-txt-color);
+   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, Helvetica,
+    Roboto, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    margin-top: 2rem;
+}
+.organization_challenges_image{
+  flex: 1;
+  height: 650px;
+
+}
+.organization_challenges_image img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+.organization_challenges_cards{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 1rem;
+  margin-top: 4rem;
+}
+
+.organization_challenges_cards button{
+  outline: none;
+  padding: 2rem .5rem;
+  border: 0;
+  border-radius: 5px;
+  background-color: #33545113;
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+
+.organization_challenges_cards button:hover{
+  background-color: #33545128;
+
+}
+
+
+
+/* =============================================================================================== */
+/* =============================================================================================== */
+/* ===================================== percentage_cards ============================================ */
+/* =============================================================================================== */
+/* =============================================================================================== */
+
+.percentage_cards{
+  margin-top: 3rem;
+}
+
+.percentage_cards_wrapper{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.percentage_card
+{
+  flex: 1;
+  flex-basis: 200px;
+  margin: 2rem;
+}
+
+.percentage_card_title{
+  text-align: center;
+}
+
+.percentage_card_subtitle{
+  font-weight: 600;
+}
+
+
+
+/* =============================================================================================== */
+/* =============================================================================================== */
+/* ===================================== award_wrapper ============================================ */
+/* =============================================================================================== */
+/* =============================================================================================== */
+
+.wave_bottom{
+  margin-bottom: -5px;
+}
+.award_wrapper{
+  position: relative;
+  margin-top: 0;
+  padding-top: 2rem;
+}
+.award_wrapper::after{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: var(--main-txt-color);
+  opacity: .2;
+  z-index: -1;
+}
+
+.award_winning_wrapper_titles{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.award_winning_wrapper_titles img{
+  width: 300px;
+  margin-bottom: 1rem;
+}
+
+.award_winning_wrapper_titles h1
+{
+  max-width: 800px;
+}
+.award_winning_wrapper_titles h5{
+  max-width: 600px;
+  font-size: 1.5rem;
+
+}
+
+.award_winning_wrapper_titles a{
+  padding: 13px 30px;
+  background-color: var(--main-act-color);
+  border-radius: 5px;
+  color: var(--one-bg-color);
+  text-decoration: none;
+  font-weight: bold;
+  margin-top: 1.5rem;
+}
+
+
+/* =============================================================================================== */
+/* =============================================================================================== */
+/* ===================================== communication_stratigy ============================================ */
+/* =============================================================================================== */
+/* =============================================================================================== */
+
+
+.communication_stratigy{
+  margin-top: 10rem;
+}
+
+.communication_stratigy_content{
+  flex: 1;
+}
+.communication_stratigy_image{
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 2px solid red; */
+  height: 550px;
+}
+.communication_stratigy_image img{
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.communication_stratigy_content_list{
+  margin-top: 2rem;
+  padding-left: 1.5rem;
+
+}
+
+.communication_stratigy_content_btn{
+  display: block;
+  color: var(--main-act-color);
+  text-decoration: none;
+  margin-top: 4.5rem;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+
+
+/* =============================================================================================== */
+/* =============================================================================================== */
+/* ===================================== try_youself ============================================ */
+/* =============================================================================================== */
+/* =============================================================================================== */
+
+.try_youself{
+  margin-top: 10rem;
+}
+.try_youself_wrapper{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.try_youself_wrapper h5{
+  width: 100%;
+  max-width: 800px;
+}
+.try_youself_wrapper a{
+  padding: 13px 30px;
+  background-color: var(--main-act-color);
+  border-radius: 5px;
+  color: var(--one-bg-color);
+  text-decoration: none;
+  font-weight: bold;
+}
