@@ -552,7 +552,11 @@ ADDITIONAL
   padding-bottom: 15rem;
 }
 
-.hero_section_titles h1,
+.hero_section_titles h1 {
+  color: var(--main-bg-color);
+  font-weight: 900;
+}
+
 .hero_section_titles p {
   color: var(--main-bg-color);
 }
@@ -585,6 +589,7 @@ ADDITIONAL
   max-width: 850px;
   margin: 0 auto;
   font-weight: 400;
+  /* color: var(--one-bg-color); */
 }
 
 .hero_section_titles_btn {
@@ -1133,6 +1138,13 @@ ADDITIONAL
 /* ============================================================================================= */
 /* ============================================================================================= */
 
+.pr-4 {
+  padding-right: 4rem;
+}
+.pl-4 {
+  padding-left: 4rem;
+}
+
 .index-2 {
   color: var(--main-tit-color);
 }
@@ -1202,14 +1214,13 @@ ADDITIONAL
 
 .tired_of_scrolling {
   background-color: var(--two-bg-color);
-  margin-top: 8rem;
 }
 
 .tired_of_scrolling_wrapper {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 3rem 0;
+  padding: 3rem 50px;
 }
 
 .tired_of_scrolling_wrapper_btn {
