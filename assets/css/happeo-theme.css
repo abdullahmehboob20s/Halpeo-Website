@@ -550,14 +550,7 @@ ADDITIONAL
 .hero_section {
   position: relative;
   padding-bottom: 15rem;
-  /* border: attr(); */
 }
-
-/* .wave {
-  position: absolute;
-  top: 100%;
-  fill: var(--main-tit-color);
-} */
 
 .hero_section_titles h1,
 .hero_section_titles p {
@@ -654,14 +647,7 @@ ADDITIONAL
 /* =============================================================================================== */
 /* =============================================================================================== */
 
-/* .followed_by{
-} */
-.followed_by_wrapper {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-}
-.followed_by_wrapper img {
+.followed_by img {
   margin: var(--size-16px);
 }
 
@@ -671,16 +657,16 @@ ADDITIONAL
 /* =============================================================================================== */
 /* =============================================================================================== */
 
-.organization_challenges {
+/* .organization_challenges {
   margin-top: 10rem;
-}
+} */
 
-.organization_challenges_wrapper {
+/* .organization_challenges_wrapper {
   display: flex;
-}
+} */
 
 .organization_challenges_content {
-  flex: 1;
+  /* flex: 1; */
   padding-right: 4rem;
 }
 
@@ -691,7 +677,7 @@ ADDITIONAL
   margin-top: 2rem;
 }
 .organization_challenges_image {
-  flex: 1;
+  /* flex: 1; */
   height: 650px;
 }
 .organization_challenges_image img {
@@ -731,17 +717,11 @@ ADDITIONAL
   margin-top: 3rem;
 }
 
-.percentage_cards_wrapper {
+/* .percentage_cards_wrapper {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-}
-
-.percentage_card {
-  flex: 1;
-  flex-basis: 200px;
-  margin: 2rem;
-}
+} */
 
 .percentage_card_title {
   text-align: center;
@@ -749,6 +729,7 @@ ADDITIONAL
 
 .percentage_card_subtitle {
   font-weight: 600;
+  text-align: left;
 }
 
 /* =============================================================================================== */
@@ -809,9 +790,6 @@ ADDITIONAL
   font-weight: bold;
   margin-top: 1.5rem;
 }
-.award_winning_image_wrapper {
-  margin-top: 5rem;
-}
 .award_winning_image_wrapper img {
   width: 100%;
 }
@@ -822,17 +800,12 @@ ADDITIONAL
 /* =============================================================================================== */
 /* =============================================================================================== */
 
-.communication_stratigy {
-  margin-top: 10rem;
-}
-
 .communication_stratigy_content {
-  flex: 1;
-  /* border: 2px solid red; */
+  height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  /* border: 2px solid red; */
 }
 .communication_stratigy_image {
   flex: 1;
@@ -868,9 +841,9 @@ ADDITIONAL
 /* =============================================================================================== */
 /* =============================================================================================== */
 
-.try_youself {
+/* .try_youself {
   margin-top: 10rem;
-}
+} */
 .try_youself_wrapper {
   display: flex;
   flex-direction: column;
@@ -897,10 +870,6 @@ ADDITIONAL
 /* =============================================================================================== */
 /* =============================================================================================== */
 
-.team_cards {
-  margin-top: 5rem;
-}
-
 .team_cards_titles {
   text-align: center;
 }
@@ -923,9 +892,6 @@ ADDITIONAL
 }
 
 .team_cards_wrapper {
-  /* display: flex;
-  justify-content: center;
-  align-items: center; */
   margin-top: 6rem;
 }
 
@@ -989,26 +955,19 @@ ADDITIONAL
 /* =============================================================================================== */
 /* =============================================================================================== */
 
-.Happeo_resources {
-  margin-top: 5rem;
-  margin-bottom: 2rem;
-}
 .Happeo_resources_titles {
   text-align: center;
   margin-bottom: 5rem;
 }
 
-/* .Happeo_resources_cards {
+/* .Happeo_resources_card {
+  margin: 0 0.5rem;
 } */
 
-.Happeo_resources_cards .Happeo_resources_card:not(:last-child) {
-  margin-right: 1rem;
-}
-
-.Happeo_resources_card {
+/* .Happeo_resources_card {
   flex: 1;
   flex-basis: 200px;
-}
+} */
 
 .Happeo_resources_card img {
   width: 100%;
