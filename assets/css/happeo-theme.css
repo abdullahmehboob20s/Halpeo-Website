@@ -746,9 +746,8 @@ ADDITIONAL
   display: flex;
   flex-direction: column;
 }
-.wave_bottom {
-  /* margin-bottom: -5px; */
-}
+/* .wave_bottom {
+} */
 .award_wrapper {
   position: relative;
   margin-top: 0;
@@ -985,9 +984,8 @@ ADDITIONAL
   margin-bottom: 5rem;
 }
 
-.Happeo_resources_cards {
-  /* display: flex; */
-}
+/* .Happeo_resources_cards {
+} */
 
 .Happeo_resources_cards .Happeo_resources_card:not(:last-child) {
   margin-right: 1rem;
