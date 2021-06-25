@@ -1118,6 +1118,9 @@ ADDITIONAL
   font-size: 0.9rem;
   margin: 0 0;
 }
+.footer_footer sup {
+  color: var(--one-bg-color);
+}
 
 .footer_terms {
   display: flex;
@@ -1518,6 +1521,7 @@ ADDITIONAL
 } */
 
 .navbar_hero_section_btns a:nth-child(1) {
+  display: inline-block;
   padding: 13px 30px;
   background-color: var(--main-act-color);
   border-radius: 5px;
@@ -1528,6 +1532,7 @@ ADDITIONAL
 }
 
 .navbar_hero_section_btns a:nth-child(2) {
+  display: inline-block;
   padding: 13px 30px;
   border: 2px solid var(--main-act-color);
   background-color: transparent;
@@ -1632,9 +1637,12 @@ ADDITIONAL
   align-items: flex-start;
   height: 450px;
   position: relative;
+  /* border: 2px solid red; */
+  margin-bottom: 2rem;
 }
 
 .group_2_index_1_article_image img {
+  /* border: 2px solid blue; */
   width: 100%;
   position: absolute;
   top: -100px;
@@ -1719,12 +1727,15 @@ ADDITIONAL
 }
 
 .trusted_by_card_icon {
-  margin-bottom: 2rem;
+  margin-bottom: 1.5rem;
   margin-top: 1rem;
 }
 
 .trusted_by_card_icon img {
   width: 200px;
+  height: 60px;
+  /* border: 2px solid red; */
+  object-fit: contain;
 }
 
 .trusted_by_card_titles_title {
@@ -1735,7 +1746,7 @@ ADDITIONAL
 
 .trusted_by_card_content {
   /* border: 2px solid red; */
-  height: 300px;
+  height: 250px;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
@@ -1749,6 +1760,14 @@ ADDITIONAL
 .trusted_by_card_content_btn {
   text-decoration: none;
   font-size: 1.5rem;
+}
+
+.trusted_by_card_content_image img {
+  /* border: 2px solid red; */
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+  object-fit: contain;
 }
 
 /* =============================================================================================== */
@@ -1808,4 +1827,76 @@ ADDITIONAL
   /* display: none; */
   padding-bottom: 3rem;
   font-size: 1.2rem;
+}
+
+/* ============================================================================================= */
+/* ============================================================================================= */
+/* ============================================================================================= */
+/* ============================================================================================= */
+/* ======================================== group-2-index-2.html ========================================  */
+/* ============================================================================================= */
+/* ============================================================================================= */
+/* ============================================================================================= */
+/* ============================================================================================= */
+
+.two-bg-color {
+  background-color: var(--two-bg-color);
+}
+
+.two-bg-color-header-links {
+  color: var(--main-tit-color);
+}
+
+.two-bg-color-header-links {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.two-bg-color-header-links a {
+  margin: 0 10px;
+  color: var(--main-tit-color);
+  text-decoration: none;
+  font-weight: 400;
+}
+
+.two-bg-color-header-btns {
+  color: var(--main-tit-color);
+  text-decoration: none;
+  font-weight: 400;
+  margin-right: 20px;
+}
+
+/* =============================================================================================== */
+/* ===================================== work_from ============================================ */
+/* =============================================================================================== */
+
+.work_from {
+  background-color: var(--two-bg-color);
+}
+
+.work_from_titles {
+  text-align: center;
+}
+
+.work_from_subtitle {
+  font-weight: 400;
+  color: var(--main-txt-color);
+}
+
+.work_from_btns {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+  /* display: block; */
+}
+.work_from_image {
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+  /* border: 2px solid red; */
+  margin-top: 3rem;
+}
+.work_from_image img {
+  width: 100%;
 }
