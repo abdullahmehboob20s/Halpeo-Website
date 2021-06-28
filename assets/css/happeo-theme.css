@@ -616,7 +616,9 @@ ADDITIONAL
 }
 
 .hero_section_titles_btn a:nth-child(1) {
-  padding: 13px 30px;
+  padding: 13px 5px;
+  width: 200px;
+  text-align: center;
   background-color: var(--main-act-color);
   border-radius: 5px;
   color: var(--one-bg-color);
@@ -626,8 +628,10 @@ ADDITIONAL
 }
 
 .hero_section_titles_btn a:nth-child(2) {
-  padding: 13px 30px;
+  padding: 13px 5px;
   border: 2px solid var(--main-act-color);
+  width: 200px;
+  text-align: center;
   background-color: transparent;
   border-radius: 5px;
   color: var(--main-act-color);
@@ -672,7 +676,7 @@ ADDITIONAL
 /* =============================================================================================== */
 
 .followed_by img {
-  width: 150px;
+  width: 100%;
   margin: var(--size-16px);
 }
 
@@ -1176,15 +1180,15 @@ ADDITIONAL
   display: flex;
   justify-content: center;
   align-items: center;
-  /* margin-bottom: 1rem; */
+  margin: 0 0;
 }
 .footer_flag {
-  margin: 1rem;
   color: white;
   font-size: 1.4rem;
   font-weight: 400;
   display: flex;
   align-items: center;
+  margin: 0.8rem 1rem;
 }
 .footer_flag img {
   width: 20px;
@@ -1211,6 +1215,7 @@ ADDITIONAL
   display: flex;
   justify-content: center;
   align-items: center;
+  margin: 0 0;
   /* margin-bottom: 4rem; */
 }
 .footer_terms p:not(:last-child) {
@@ -1219,6 +1224,7 @@ ADDITIONAL
 .footer_terms p {
   color: white;
   padding: 0 1rem;
+  margin: 0.5rem 0;
 }
 
 /* ============================================================================================= */
@@ -1628,7 +1634,9 @@ ADDITIONAL
 
 .navbar_hero_section_btns a:nth-child(1) {
   display: inline-block;
-  padding: 13px 30px;
+  padding: 13px 5px;
+  width: 200px;
+  text-align: center;
   background-color: var(--main-act-color);
   border-radius: 5px;
   color: var(--one-bg-color);
@@ -1639,7 +1647,9 @@ ADDITIONAL
 
 .navbar_hero_section_btns a:nth-child(2) {
   display: inline-block;
-  padding: 13px 30px;
+  padding: 13px 5px;
+  width: 200px;
+  text-align: center;
   border: 2px solid var(--main-act-color);
   background-color: transparent;
   border-radius: 5px;
@@ -1694,7 +1704,9 @@ ADDITIONAL
 
 .tired_of_scrolling_2_wrapper_btns a:nth-child(1) {
   display: inline-block;
-  padding: 13px 30px;
+  padding: 13px 5px;
+  width: 200px;
+  text-align: center;
   background-color: var(--main-act-color);
   border-radius: 5px;
   color: var(--one-bg-color);
@@ -1705,7 +1717,9 @@ ADDITIONAL
 
 .tired_of_scrolling_2_wrapper_btns a:nth-child(2) {
   display: inline-block;
-  padding: 13px 30px;
+  padding: 13px 5px;
+  width: 200px;
+  text-align: center;
   border: 2px solid var(--main-act-color);
   background-color: transparent;
   border-radius: 5px;
