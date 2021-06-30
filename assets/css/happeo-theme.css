@@ -1951,6 +1951,7 @@ span.block {
   width: 30px;
   transition: all 0.3s ease;
   margin-left: 1rem;
+  transform: rotate(180deg);
 }
 
 .FAQ_content_title.active img {
@@ -1962,7 +1963,7 @@ span.block {
 } */
 
 .FAQ_content_disc {
-  height: 0;
+  height: auto;
   overflow: hidden;
   transition: all 0.4s ease;
 }
@@ -2255,6 +2256,10 @@ span.block {
 }
 
 @media (max-width: 500px) {
+  .tired_of_scrolling_2_wrapper h1 {
+    line-height: 1.2;
+  }
+
   .hero_section_titles h1 {
     font-size: var(--size-46px);
   }
