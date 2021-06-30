@@ -6,41 +6,49 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="./assets/css/happeo-theme.css" />
-
-    <!-- Link Swiper's CSS -->
-    <link
-      rel="stylesheet"
-      href="https://unpkg.com/swiper/swiper-bundle.min.css"
-    />
-
-    <!-- fontawesom link -->
-    <link
-      rel="stylesheet"
-      href="./assets/icons/fontawesome-free-5.15.3-web/css/all.css"
-    />
   </head>
   <body>
     <!-- ========================================== -->
     <!-- ============== hero_section ============== -->
     <!-- ========================================== -->
-    <div class="hero_wrapper_parent">
-      <div class="hero_section main-tit-color">
-        <!-- header -->
-        <div class="header">
-          <div class="header_wrapper">
+    <div class="hero_section">
+      <div class="hero_wave_container main-tit-color">
+        <svg
+          class="hero_wave_container_wave"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 1440 320"
+        >
+          <path
+            fill="#002925"
+            fill-opacity="1"
+            d="M0,160L80,138.7C160,117,320,75,480,90.7C640,107,800,181,960,202.7C1120,224,1280,192,1360,176L1440,160L1440,0L1360,0C1280,0,1120,0,960,0C800,0,640,0,480,0C320,0,160,0,80,0L0,0Z"
+          ></path>
+        </svg>
+      </div>
+
+      <!-- header -->
+      <div class="header">
+        <div class="row between header_wrapper">
+          <div class="col-4-lg col-12-md col-12-sm header_wrapper_child">
             <div class="header_logo">
               <img
                 class="header_img"
-                src="./assets/images/Group 1/happeo-logo-svg.svg"
+                src="./assets/images/Group 1/happeo-logo-2-svg.svg"
                 alt=""
               />
             </div>
+          </div>
+
+          <div class="col-4-lg col-12-md col-12-sm header_wrapper_child">
             <div class="header_links">
               <a class="light_link" href="./index.html">Feature</a>
               <a class="light_link" href="./index-2-group-1.html">Solutions</a>
               <a class="light_link" href="./group-2-index-1.html">Resources</a>
               <a class="light_link" href="./group-2-index-2.html">Pricinng</a>
             </div>
+          </div>
+
+          <div class="col-4-lg col-12-md col-12-sm header_wrapper_child">
             <div class="header_btns">
               <a
                 href="./group-2-index-3.html"
@@ -55,38 +63,26 @@
             </div>
           </div>
         </div>
-
-        <div class="hero_section_titles">
-          <h1>The Social intranet that</h1>
-          <h1>makes employees happier at work</h1>
-          <h5 style="color: #e6eded">
-            An intranet social network and collaboration platform that brings
-            your employees together-no matter where they are.
-          </h5>
-          <div class="hero_section_titles_btn">
-            <a href="#">Get started</a>
-            <a href="#">Request demo</a>
-          </div>
-          <div class="hero_google_link">
-            <a href="#">
-              <img src="./assets/icons/google-icon.svg" alt="" />
-              Fully integrated Google Workspace
-            </a>
-          </div>
-        </div>
       </div>
 
-      <svg
-        class="wave"
-        xmlns="http://www.w3.org/2000/svg"
-        viewBox="0 0 1440 320"
-      >
-        <path
-          fill="#002925"
-          fill-opacity="1"
-          d="M0,160L80,138.7C160,117,320,75,480,90.7C640,107,800,181,960,202.7C1120,224,1280,192,1360,176L1440,160L1440,0L1360,0C1280,0,1120,0,960,0C800,0,640,0,480,0C320,0,160,0,80,0L0,0Z"
-        ></path>
-      </svg>
+      <div class="hero_section_titles">
+        <h1>The Social intranet that</h1>
+        <h1>makes employees happier at work</h1>
+        <h5 style="color: #e6eded">
+          An intranet social network and collaboration platform that brings your
+          employees together-no matter where they are.
+        </h5>
+        <div class="row center hero_section_titles_btn">
+          <a href="#">Get started</a>
+          <a href="#">Request demo</a>
+        </div>
+        <div class="hero_google_link">
+          <a href="#">
+            <img src="./assets/icons/google-icon.svg" alt="" />
+            Fully integrated Google Workspace
+          </a>
+        </div>
+      </div>
 
       <img
         src="./assets/images/Group 1/group-1-homepage-1-1.jpg"
@@ -100,13 +96,6 @@
     <!-- ========================================== -->
     <section>
       <div class="row center followed_by">
-        <!-- <img src="./assets/images/Group 1/group-1-homepage-5-4.jpg" alt="" />
-        <img src="./assets/images/Group 1/group-1-homepage-5-4.jpg" alt="" />
-        <img src="./assets/images/Group 1/group-1-homepage-5-4.jpg" alt="" />
-        <img src="./assets/images/Group 1/group-1-homepage-5-4.jpg" alt="" />
-        <img src="./assets/images/Group 1/group-1-homepage-5-4.jpg" alt="" />
-        <img src="./assets/images/Group 1/group-1-homepage-5-4.jpg" alt="" />
-        <img src="./assets/images/Group 1/group-1-homepage-5-4.jpg" alt="" /> -->
         <img src="./assets/images/Group 1/customer_logos.webp" alt="" />
       </div>
     </section>
@@ -114,10 +103,9 @@
     <!-- ========================================== -->
     <!-- ============== organization_challenges ============== -->
     <!-- ========================================== -->
-
     <section>
       <div class="row">
-        <div class="col-6-lg">
+        <div class="col-6-lg col-12-md col-12-sm">
           <div class="organization_challenges_content">
             <h1 class="organization_challenges_content_title">
               99% of organization have challenges with employee engangement
@@ -129,16 +117,24 @@
               emplyees across department,job,roles, and locations
             </h6>
 
-            <div class="organization_challenges_cards">
-              <button>Hr department</button>
-              <button>It department</button>
-              <button>Communication department</button>
-              <button>Business leaders</button>
+            <div class="row center organization_challenges_cards">
+              <div class="col-6-lg col-12-md col-12-sm">
+                <button>Hr department</button>
+              </div>
+              <div class="col-6-lg col-12-md col-12-sm">
+                <button>It department</button>
+              </div>
+              <div class="col-6-lg col-12-md col-12-sm">
+                <button>Communication department</button>
+              </div>
+              <div class="col-6-lg col-12-md col-12-sm">
+                <button>Business leaders</button>
+              </div>
             </div>
           </div>
         </div>
 
-        <div class="col-6-lg">
+        <div class="col-6-lg col-12-md col-12-sm">
           <div class="organization_challenges_image">
             <img
               src="./assets/images/Group 1/group-1-homepage-2-1.jpg"
@@ -227,7 +223,7 @@
         <!-- communication_stratigy ============================================= -->
         <section>
           <div class="row reverse">
-            <div class="col-6-lg">
+            <div class="col-6-lg col-12-md col-12-sm">
               <div class="communication_stratigy_content">
                 <h1 class="organization_challenges_content_title">
                   communication strategically and align productively
@@ -251,8 +247,8 @@
               </div>
             </div>
 
-            <div class="col-6-lg">
-              <div class="communication_stratigy_image pr-4">
+            <div class="col-6-lg col-12-md col-12-sm">
+              <div class="communication_stratigy_image">
                 <img
                   src="./assets/images/Group 1/group-1-homepage-3-3.jpg"
                   alt=""
@@ -265,7 +261,7 @@
         <!-- share_right_information ============================================= -->
         <section>
           <div class="row">
-            <div class="col-6-lg">
+            <div class="col-6-lg col-12-md col-12-sm">
               <div class="communication_stratigy_content">
                 <div>
                   <h1 class="organization_challenges_content_title">
@@ -293,11 +289,8 @@
               </div>
             </div>
 
-            <div class="col-6-lg">
-              <div
-                class="communication_stratigy_image"
-                style="padding-left: 4rem"
-              >
+            <div class="col-6-lg col-12-md col-12-sm">
+              <div class="communication_stratigy_image">
                 <img
                   src="./assets/images/Group 1/group-1-product-page-3-1.jpg"
                   alt=""
@@ -310,7 +303,7 @@
         <!-- unlock_power ============================================= -->
         <section>
           <div class="row reverse">
-            <div class="col-6-lg">
+            <div class="col-6-lg col-12-md col-12-sm">
               <div class="communication_stratigy_content">
                 <div>
                   <h1 class="organization_challenges_content_title">
@@ -338,11 +331,8 @@
               </div>
             </div>
 
-            <div class="col-6-lg">
-              <div
-                class="communication_stratigy_image"
-                style="padding-right: 4rem"
-              >
+            <div class="col-6-lg col-12-md col-12-sm">
+              <div class="communication_stratigy_image">
                 <img
                   src="./assets/images/Group 1/group-1-homepage-3-5.jpg"
                   alt=""
@@ -355,7 +345,7 @@
         <!-- avoid_it ============================================= -->
         <section>
           <div class="row">
-            <div class="col-6-lg">
+            <div class="col-6-lg col-12-md col-12-sm">
               <div class="communication_stratigy_content">
                 <div>
                   <h1 class="organization_challenges_content_title">
@@ -383,11 +373,8 @@
               </div>
             </div>
 
-            <div class="col-6-lg">
-              <div
-                class="communication_stratigy_image"
-                style="padding-left: 4rem"
-              >
+            <div class="col-6-lg col-12-md col-12-sm">
+              <div class="communication_stratigy_image">
                 <img
                   src="./assets/images/Group 1/group-1-homepage-3-6.jpg"
                   alt=""
@@ -399,7 +386,7 @@
 
         <!-- try_youself ============================================= -->
         <section>
-          <div class="try_youself_wrapper">
+          <div class="center">
             <h1 class="try_youself_wrapper_title">
               Try yourself what it feels to use Happeo
             </h1>
@@ -427,7 +414,7 @@
     <!-- avoid_it ============================================= -->
     <section>
       <div class="row">
-        <div class="col-6-lg">
+        <div class="col-6-lg col-12-md col-12-sm">
           <div class="communication_stratigy_content">
             <div>
               <h1 class="organization_challenges_content_title">
@@ -446,8 +433,8 @@
             </div>
           </div>
         </div>
-        <div class="col-6-lg">
-          <div class="communication_stratigy_image" style="padding-left: 4rem">
+        <div class="col-6-lg col-12-md col-12-sm">
+          <div class="communication_stratigy_image">
             <img
               src="./assets/images/Group 1/group-1-homepage-4-1.jpg"
               alt=""
@@ -461,16 +448,16 @@
     <!-- ============== team_cards ============== -->
     <!-- ========================================== -->
     <section>
-      <div class="team_cards_titles">
+      <div class="center">
         <h1 class="team_cards_title">Dont just take our word for it</h1>
-        <h5 class="team_cards_subtitle">
-          <i class="fab fa-gofore G2"></i>
+        <h5 class="row center">
+          <img src="./assets/images/social-icons/g.svg" class="G2" alt="" />
           <div class="team_cards_stars">
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star-half-alt"></i>
+            <img src="./assets/images/social-icons/star.svg" alt="" />
+            <img src="./assets/images/social-icons/star.svg" alt="" />
+            <img src="./assets/images/social-icons/star.svg" alt="" />
+            <img src="./assets/images/social-icons/star.svg" alt="" />
+            <img src="./assets/images/social-icons/half-star.svg" alt="" />
           </div>
           <span class="team_cards_subtitle_heading">
             Happeo is rated 4.5 out of 5 start on G2
@@ -478,135 +465,96 @@
         </h5>
       </div>
 
-      <div class="team_cards_wrapper">
-        <!-- Swiper -->
-        <div class="swiper-container mySwiper">
-          <div class="swiper-wrapper">
-            <div class="swiper-slide">
-              <div class="team_card">
-                <div class="team_card_titles">
-                  <div class="team_card_icon">
-                    <img
-                      src="./assets/images/Group 1/group-1-homepage-5-5.jpg"
-                      alt=""
-                    />
-                  </div>
-                  <p class="team_card_titles_title">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Doloribus excepturi voluptatum architecto eos recusandae,
-                    culpa nam? Molestiae impedit ducimus delectus.
-                  </p>
-                </div>
-
-                <div class="team_card_content">
-                  <div class="team_card_content_image">
-                    <img
-                      src="./assets/images/Group 1/group-1-homepage-5-2.jpg"
-                      alt=""
-                      class="team_card_content_image_img"
-                    />
-                  </div>
-                  <p class="team_card_content_title">Jonathan Swengler</p>
-                  <a class="team_card_content_btn" href="#"
-                    >Read Customer Story</a
-                  >
-                </div>
+      <div class="trusted_by_cards row align-center center">
+        <div class="col-4-lg col-12-md col-12-sm">
+          <div class="trusted_by_card_small">
+            <div class="trusted_by_card_titles">
+              <div class="trusted_by_card_icon">
+                <img
+                  src="./assets/images/Group 1/group-1-homepage-5-5.jpg"
+                  alt=""
+                />
               </div>
+              <p class="trusted_by_card_titles_title">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Doloribus excepturi voluptatum architecto eos recusandae, culpa
+                nam? Molestiae impedit ducimus delectus.
+              </p>
             </div>
 
-            <div class="swiper-slide">
-              <div class="team_card">
-                <div class="team_card_titles">
-                  <div class="team_card_icon">
-                    <img
-                      src="./assets/images/Group 1/group-1-homepage-5-4.jpg"
-                      alt=""
-                    />
-                  </div>
-                  <p class="team_card_titles_title">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Doloribus excepturi voluptatum architecto eos recusandae,
-                    culpa nam? Molestiae impedit ducimus delectus.
-                  </p>
-                </div>
-
-                <div class="team_card_content">
-                  <div class="team_card_content_image">
-                    <img
-                      src="./assets/images/Group 1/group-1-homepage-5-1.jpg"
-                      alt=""
-                      class="team_card_content_image_img"
-                    />
-                  </div>
-                  <p class="team_card_content_title">Jonathan Swengler</p>
-                  <a class="team_card_content_btn" href="#"
-                    >Read Customer Story</a
-                  >
-                </div>
+            <div class="trusted_by_card_content">
+              <div class="trusted_by_card_content_image">
+                <img
+                  src="./assets/images/Group 1/group-1-homepage-5-2.jpg"
+                  alt=""
+                />
               </div>
+              <p class="trusted_by_card_content_title">Jonathan Swengler</p>
+              <a class="trusted_by_card_content_btn" href="#"
+                >Read Customer Story</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="col-4-lg col-12-md col-12-sm">
+          <div class="trusted_by_card_big">
+            <div class="trusted_by_card_titles">
+              <div class="trusted_by_card_icon">
+                <img
+                  src="./assets/images/Group 1/group-1-homepage-5-5.jpg"
+                  alt=""
+                />
+              </div>
+              <p class="trusted_by_card_titles_title">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Doloribus excepturi voluptatum archite Doloribus excepturi
+                voluptatum archite
+              </p>
             </div>
 
-            <div class="swiper-slide">
-              <div class="team_card">
-                <div class="team_card_titles">
-                  <div class="team_card_icon">
-                    <img
-                      src="./assets/images/Group 1/group-1-homepage-5-6.jpg"
-                      alt=""
-                    />
-                  </div>
-                  <p class="team_card_titles_title">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Doloribus excepturi voluptatum architecto eos recusandae,
-                    culpa nam? Molestiae impedit ducimus delectus.
-                  </p>
-                </div>
-
-                <div class="team_card_content">
-                  <div class="team_card_content_image">
-                    <img
-                      src="./assets/images/Group 1/group-1-homepage-5-3.jpg"
-                      alt=""
-                      class="team_card_content_image_img"
-                    />
-                  </div>
-                  <p class="team_card_content_title">Jonathan Swengler</p>
-                  <a class="team_card_content_btn" href="#"
-                    >Read Customer Story</a
-                  >
-                </div>
+            <div class="trusted_by_card_content">
+              <div class="trusted_by_card_content_image">
+                <img
+                  src="./assets/images/Group 1/group-1-homepage-5-2.jpg"
+                  alt=""
+                />
               </div>
+              <p class="trusted_by_card_content_title">Jonathan Swengler</p>
+              <a class="trusted_by_card_content_btn" href="#"
+                >Read Customer Story</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="col-4-lg col-12-md col-12-sm">
+          <div class="trusted_by_card_small">
+            <div class="trusted_by_card_titles">
+              <div class="trusted_by_card_icon">
+                <img
+                  src="./assets/images/Group 1/group-1-homepage-5-5.jpg"
+                  alt=""
+                />
+              </div>
+              <p class="trusted_by_card_titles_title">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Doloribus excepturi voluptatum architecto eos recusandae, culpa
+                nam? Molestiae impedit ducimus delectus.
+              </p>
             </div>
 
-            <div class="swiper-slide">
-              <div class="team_card">
-                <div class="team_card_titles">
-                  <div class="team_card_icon">
-                    <img
-                      src="./assets/images/Group 1/group-1-homepage-5-5.jpg"
-                      alt=""
-                    />
-                  </div>
-                  <p class="team_card_titles_title">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Doloribus excepturi voluptatum architecto eos recusandae,
-                    culpa nam? Molestiae impedit ducimus delectus.
-                  </p>
-                </div>
-
-                <div class="team_card_content">
-                  <div class="team_card_content_image">
-                    <img
-                      src="./assets/images/Group 1/group-1-homepage-5-2.jpg"
-                      alt=""
-                    />
-                  </div>
-                  <p class="team_card_content_title">Jonathan Swengler</p>
-                  <a class="team_card_content_btn" href="#"
-                    >Read Customer Story</a
-                  >
-                </div>
+            <div class="trusted_by_card_content">
+              <div class="trusted_by_card_content_image">
+                <img
+                  src="./assets/images/Group 1/group-1-homepage-5-2.jpg"
+                  alt=""
+                />
               </div>
+              <p class="trusted_by_card_content_title">Jonathan Swengler</p>
+              <a class="trusted_by_card_content_btn" href="#"
+                >Read Customer Story</a
+              >
             </div>
           </div>
         </div>
@@ -616,7 +564,7 @@
     <!-- unlock_power ============================================= -->
     <section>
       <div class="row reverse">
-        <div class="col-6-lg">
+        <div class="col-6-lg col-12-md col-12-sm">
           <div class="communication_stratigy_content">
             <h1 class="organization_challenges_content_title">
               All proofs rest on premises
@@ -633,8 +581,8 @@
             >
           </div>
         </div>
-        <div class="col-6-lg">
-          <div class="communication_stratigy_image" style="padding-right: 4rem">
+        <div class="col-6-lg col-12-md col-12-sm">
+          <div class="communication_stratigy_image">
             <img
               src="./assets/images/Group 1/group-1-homepage-6-1.jpg"
               alt=""
@@ -648,7 +596,7 @@
     <!-- ============== Happeo_resources ============== -->
     <!-- ========================================== -->
     <section>
-      <div class="Happeo_resources_titles">
+      <div class="center Happeo_resources_titles">
         <h1 class="Happeo_resources_title">Happeo resources</h1>
         <h5 class="Happeo_resources_subtitle">
           Get the latest on internal Commas, social intranet development and
@@ -657,7 +605,7 @@
       </div>
 
       <div class="row">
-        <div class="col-4-lg">
+        <div class="col-4-lg col-12-md col-12-sm">
           <div class="Happeo_resources_card">
             <img
               src="./assets/images/Group 1/group-1-homepage-7-1.jpg"
@@ -676,7 +624,7 @@
             </div>
           </div>
         </div>
-        <div class="col-4-lg">
+        <div class="col-4-lg col-12-md col-12-sm">
           <div class="Happeo_resources_card">
             <img
               src="./assets/images/Group 1/group-1-homepage-7-2.jpg"
@@ -684,7 +632,7 @@
             />
           </div>
         </div>
-        <div class="col-4-lg">
+        <div class="col-4-lg col-12-md col-12-sm">
           <div class="Happeo_resources_card">
             <img
               src="./assets/images/Group 1/group-1-homepage-7-3.jpg"
@@ -694,55 +642,6 @@
         </div>
       </div>
     </section>
-
-    <!-- ========================================== -->
-    <!-- ============== Happeo_resources ============== -->
-    <!-- ========================================== -->
-    <!-- <div class="Happeo_resources">
-      <div class="container-wrapper">
-        <div class="Happeo_resources_wrapper">
-          <div class="Happeo_resources_titles">
-            <h1 class="Happeo_resources_title">Happeo resources</h1>
-            <h5 class="Happeo_resources_subtitle">
-              Get the latest on internal Commas, social intranet development and
-              remote collaboration
-            </h5>
-          </div>
-
-          <div class="Happeo_resources_cards row">
-            <div class="Happeo_resources_card">
-              <img
-                src="./assets/images/Group 1/group-1-homepage-7-1.jpg"
-                alt=""
-              />
-              <div class="Happeo_resources_card_content">
-                <h4 class="Happeo_resources_card_content_title">
-                  News & insights
-                </h4>
-                <p class="Happeo_resources_card_content_subtitle">
-                  Define who gets input on your internal comms
-                </p>
-                <div class="Happeo_resources_card_content_btn">
-                  <a href="#">Read more</a>
-                </div>
-              </div>
-            </div>
-            <div class="Happeo_resources_card">
-              <img
-                src="./assets/images/Group 1/group-1-homepage-7-2.jpg"
-                alt=""
-              />
-            </div>
-            <div class="Happeo_resources_card">
-              <img
-                src="./assets/images/Group 1/group-1-homepage-7-3.jpg"
-                alt=""
-              />
-            </div>
-          </div>
-        </div>
-      </div>
-    </div> -->
 
     <!-- ========================================== -->
     <!-- ============== footer ============== -->
@@ -837,53 +736,53 @@
             />
           </div>
           <div class="footer_social_links_right">
-            <a href="#">
-              <i class="fab fa-facebook-f"></i>
+            <a class="footer_social_link" href="#">
+              <img src="./assets/images/social-icons/facebook.svg" alt="" />
             </a>
-            <a href="#">
-              <i class="fab fa-linkedin-in"></i>
+            <a class="footer_social_link" href="#">
+              <img src="./assets/images/social-icons/linkedin.svg" alt="" />
             </a>
-            <a href="#">
-              <i class="fab fa-twitter"></i>
+            <a class="footer_social_link" href="#">
+              <img src="./assets/images/social-icons/twitter.svg" alt="" />
             </a>
-            <a href="#">
-              <i class="fab fa-youtube"></i>
+            <a class="footer_social_link" href="#">
+              <img src="./assets/images/social-icons/youtube.svg" alt="" />
             </a>
           </div>
         </div>
 
-        <div class="footer_countries">
-          <p class="footer_flag">
+        <div class="row center footer_countries">
+          <p class="row center footer_flag">
             <img
               src="./assets/images/Countries Flags/united-kingdom.png"
               alt=""
             />
             English
           </p>
-          <p class="footer_flag">
+          <p class="row center footer_flag">
             <img src="./assets/images/Countries Flags/finland.png" alt="" />
             Finnish
           </p>
-          <p class="footer_flag">
+          <p class="row center footer_flag">
             <img src="./assets/images/Countries Flags/france.png" alt="" />
             French
           </p>
-          <p class="footer_flag">
+          <p class="row center footer_flag">
             <img src="./assets/images/Countries Flags/italy.png" alt="" />
             Italian
           </p>
-          <p class="footer_flag">
+          <p class="row center footer_flag">
             <img src="./assets/images/Countries Flags/spain.png" alt="" />
             Spanish
           </p>
         </div>
 
-        <p class="footer_footer">
+        <p class="footer_footer center">
           <span>&#169; 2020 - Happeo<sup>TM</sup>. All rights reserved.</span>
           U.S Patient: 10,454,911 Issue date: October 22. 2019
         </p>
 
-        <div class="footer_terms">
+        <div class="footer_terms row center">
           <p>Terms of services</p>
           <p>Privacy policy</p>
           <p>Security</p>
@@ -892,10 +791,5 @@
         <!-- ======= -->
       </footer>
     </div>
-
-    <!-- Swiper JS -->
-    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-    <!-- Swiper js script frm folders -->
-    <script src="./assets/js/swiper.js"></script>
   </body>
 </html>
