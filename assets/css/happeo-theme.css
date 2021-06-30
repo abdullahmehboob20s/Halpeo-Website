@@ -495,6 +495,10 @@ ADDITIONAL
 /* ============================================================================================= */
 /* ============================================================================================= */
 
+span.block {
+  display: block;
+}
+
 .container-wrapper {
   width: 90%;
   max-width: 1440px;
@@ -601,23 +605,22 @@ ADDITIONAL
   width: 100%;
 }
 
+.hero_section_titles {
+  padding: 0 15px;
+}
+
 .hero_section_titles h1 {
   color: var(--main-bg-color);
   font-weight: 900;
   text-align: center;
   font-size: var(--size-83px);
+  margin-bottom: var(--size-30px);
 }
 
 .hero_section_titles p {
   color: var(--main-bg-color);
 }
 
-.hero_section_titles h1:nth-child(1) {
-  margin-bottom: var(--size-16px);
-}
-.hero_section_titles h1:nth-child(2) {
-  margin-bottom: var(--size-30px);
-}
 .hero_section_titles h5 {
   text-align: center;
   width: 90%;
@@ -703,7 +706,6 @@ ADDITIONAL
 
 .organization_challenges_content_title {
   line-height: 1.1;
-  /* border: 2px solid red; */
 }
 .organization_challenges_content_subtitle {
   font-weight: 400;
@@ -2131,4 +2133,51 @@ ADDITIONAL
 .hundred_brands_2 {
   background-color: var(--four-bg-color);
   margin: 2rem 0;
+}
+
+/* Media queries */
+
+@media (max-width: 760px) {
+  section {
+    /* Mine */
+    padding: 70px 15px;
+  }
+
+  .hero_section_titles h1 {
+    font-size: var(--size-58px);
+    line-height: 1.1;
+  }
+
+  .hero_section_titles_btn a:nth-child(1) {
+    padding: 13px 25px;
+    width: auto;
+  }
+
+  .hero_section_titles_btn a:nth-child(2) {
+    padding: 13px 25px;
+    width: auto;
+  }
+
+  h1 {
+    font-size: var(--size-52px);
+  }
+
+  .organization_challenges_image {
+    height: auto;
+    padding: 0 0;
+  }
+
+  .organization_challenges_image img {
+    object-fit: cover;
+  }
+
+  .communication_stratigy_image {
+    padding: 0 0;
+    height: auto;
+  }
+
+  .organization_challenges_index_2_image {
+    margin-top: 0rem;
+    padding: 0 0;
+  }
 }
