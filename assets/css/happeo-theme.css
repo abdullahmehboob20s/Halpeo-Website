@@ -1084,8 +1084,6 @@ span.block {
 
 .footer_container {
   background-color: var(--main-tit-color);
-  /* padding: 0 60px; */
-  /* border: 2px solid red; */
 }
 
 .footer_titles {
@@ -1142,6 +1140,13 @@ span.block {
   padding: 1rem 3rem;
   border-bottom: 2px solid #00201dc5;
   margin-bottom: 3rem;
+}
+
+.footer_social_links_left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
 .footer_social_links_left img {
@@ -1652,12 +1657,9 @@ span.block {
   justify-content: center;
   align-items: center;
   padding: 0 var(--size-48px);
-  /* height: 600px; */
 }
 .group_2_index_1_cards_image img {
   width: 100%;
-  /* height: 100%;
-  object-fit: contain; */
 }
 
 /* =============================================================================================== */
@@ -1717,7 +1719,6 @@ span.block {
   text-align: left;
   padding: 0 2.5rem;
   padding-bottom: 3.6rem;
-  /* border: 2px solid blue; */
 }
 
 .group_2_index_1_article_title {
@@ -1881,7 +1882,7 @@ span.block {
 
 .trusted_by_card_titles_title {
   font-weight: 600;
-  font-size: 1.4rem;
+  font-size: var(--size-24px);
   line-height: 1.6;
 }
 
@@ -1949,6 +1950,7 @@ span.block {
 .FAQ_content_title img {
   width: 30px;
   transition: all 0.3s ease;
+  margin-left: 1rem;
 }
 
 .FAQ_content_title.active img {
@@ -2137,10 +2139,34 @@ span.block {
 
 /* Media queries */
 
+@media (max-width: 800px) {
+  .footer_social_links {
+    padding: 1rem 1rem;
+    flex-direction: column;
+  }
+
+  .footer_social_links_left {
+    margin-bottom: 1rem;
+  }
+
+  .footer_social_links_left img {
+    margin-right: 0;
+    margin: var(--size-16px);
+  }
+}
+
 @media (max-width: 760px) {
   section {
     /* Mine */
     padding: 70px 15px;
+  }
+
+  .navbar_hero_section {
+    padding: 0px 15px;
+  }
+
+  footer {
+    padding: 30px 20px;
   }
 
   .hero_section_titles h1 {
@@ -2179,5 +2205,102 @@ span.block {
   .organization_challenges_index_2_image {
     margin-top: 0rem;
     padding: 0 0;
+  }
+
+  .group_2_index_1_cards_image {
+    padding: 0 0;
+  }
+
+  .group_2_index_1_article {
+    margin-top: 0;
+  }
+
+  .group_2_index_1_article_titles {
+    text-align: left;
+    padding: 0 1.5rem;
+    padding-bottom: 1.5rem;
+  }
+
+  .group_2_index_1_article_subtitle {
+    margin-top: 1rem;
+    font-size: var(--size-22px);
+  }
+
+  .group_2_index_1_article_image {
+    display: flex;
+    align-items: center;
+    height: 300px;
+    position: relative;
+  }
+
+  .group_2_index_1_article_image img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    position: static;
+  }
+
+  .FAQ_content {
+    padding: 0rem 2rem;
+  }
+
+  .trusted_by_card {
+    min-height: auto;
+  }
+
+  .trusted_by_card_content {
+    height: auto;
+    margin-top: 2rem;
+  }
+}
+
+@media (max-width: 500px) {
+  .hero_section_titles h1 {
+    font-size: var(--size-46px);
+  }
+
+  h1 {
+    font-size: var(--size-48px);
+  }
+
+  h5 {
+    font-size: var(--size-24px); /*30px*/
+    line-height: var(--size-40px); /*40px*/
+  }
+
+  h6 {
+    font-size: var(--size-19px); /*24px*/
+  }
+
+  .header_links {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .header_links a {
+    margin: 0.8rem 0.8rem;
+  }
+
+  .organization_challenges_cards {
+    margin-top: 2rem;
+  }
+
+  .organization_challenges_cards button {
+    font-size: var(--size-19px);
+  }
+
+  .try_youself_wrapper_title {
+    line-height: 1.2;
+    margin-bottom: 1rem;
+  }
+
+  .trusted_by_card_titles_title {
+    font-size: var(--size-22px);
+  }
+
+  .group_2_index_1_article_title {
+    font-size: var(--size-36px);
+    margin-bottom: 0;
+    line-height: 1.2;
   }
 }
