@@ -707,6 +707,10 @@ span.block {
 .organization_challenges_content_title {
   line-height: 1.1;
 }
+.organization_challenges_content_title_2 {
+  line-height: 1.1;
+  margin-bottom: 2.5rem;
+}
 .organization_challenges_content_subtitle {
   font-weight: 400;
   color: var(--main-txt-color);
@@ -1415,6 +1419,9 @@ span.block {
 .integrations {
   background-color: var(--five-bg-color);
 }
+.integrations_2 {
+  background-color: var(--four-bg-color);
+}
 
 .integrations_headings {
   display: flex;
@@ -1579,6 +1586,11 @@ span.block {
 .three-bg-color {
   background-color: var(--three-bg-color);
 }
+
+.three-bg-color-2 {
+  background-color: var(--three-bg-color);
+}
+
 .three-bg-color a {
   color: var(--main-tit-color);
 }
@@ -1675,6 +1687,10 @@ span.block {
 .tired_of_scrolling_2_wrapper {
   text-align: center;
   padding: 4rem 50px;
+}
+
+.tired_of_scrolling_2_wrapper h1 {
+  line-height: 1.2;
 }
 
 .tired_of_scrolling_2_wrapper_btns a:nth-child(1) {
@@ -2138,6 +2154,155 @@ span.block {
   margin: 2rem 0;
 }
 
+/* ============================================================================================= */
+/* ============================================================================================= */
+/* ============================================================================================= */
+/* ============================================================================================= */
+/* ============================================================================================= */
+/* ======================================== group-3-index-1 ========================================  */
+/* ============================================================================================= */
+/* ============================================================================================= */
+/* ============================================================================================= */
+/* ============================================================================================= */
+
+.navbar_hero_section_btns_group_3 a:nth-child(1) {
+  display: inline-block;
+  padding: 13px var(--size-34px);
+  text-align: center;
+  background-color: var(--main-act-color);
+  border-radius: 5px;
+  color: var(--one-bg-color);
+  text-decoration: none;
+  font-weight: bold;
+  margin-right: var(--size-19px);
+}
+
+.navbar_hero_section_btns_group_3 a:nth-child(2) {
+  display: inline-block;
+  padding: 13px var(--size-34px);
+  text-align: center;
+  border: 2px solid var(--main-act-color);
+  background-color: transparent;
+  border-radius: 5px;
+  color: var(--main-act-color);
+  text-decoration: none;
+  font-weight: bold;
+  margin-right: var(--size-19px);
+}
+
+/* =============================================================================================== */
+/* ===================================== ready_to_go ============================================ */
+/* =============================================================================================== */
+
+.ready_to_go_title {
+  text-align: center;
+  line-height: 1.2;
+}
+
+.ready_to_go_card_title {
+  margin-bottom: 0;
+}
+.ready_to_go_subtitle {
+  text-align: center;
+  font-weight: 400;
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+}
+.ready_to_go_card {
+  text-align: left;
+  margin-top: 4rem;
+}
+.ready_to_go_card_img {
+  width: 150px;
+  height: 110px;
+  /* height: 130px; */
+  /* border: 2px solid red;
+  object-fit: contain; */
+}
+
+.ready_to_go_card_img_2 {
+  width: 50px;
+  height: 50px;
+  object-fit: contain;
+  margin-bottom: 0.5rem;
+}
+
+.ready_to_go_card_subtitle {
+  font-weight: 400;
+}
+
+.project_management {
+  margin: 70px 0;
+}
+
+/* =============================================================================================== */
+/* ===================================== custom_widgets ============================================ */
+/* =============================================================================================== */
+
+.custom_widgets_card {
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+  text-align: left;
+  padding: var(--size-30px) 0;
+  border-radius: 5px;
+}
+
+.custom_widgets_card_img {
+  width: 100%;
+  height: 270px;
+  /* object-fit: contain; */
+}
+
+.custom_widgets_card_content {
+  padding: 0 var(--size-21px);
+}
+
+.custom_widgets_card_content h6 {
+  font-weight: 400;
+  color: grey;
+}
+
+.custom_widgets_card_subtitle {
+  margin-bottom: 2rem;
+}
+
+.custom_widgets_card_list {
+  list-style-type: none;
+}
+
+.custom_widgets_card_list li {
+  display: flex;
+  align-items: center;
+  /* padding: 0.5rem 0; */
+  /* border: 2px solid red; */
+}
+
+.custom_widgets_card_list_li_img {
+  /* border: 2px solid red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20px;
+  margin-right: 1rem;
+}
+
+.communication_stratigy_content_btn_2 {
+  display: inline-block;
+  padding: 13px var(--size-34px);
+  text-align: center;
+  background-color: var(--main-act-color);
+  border-radius: 5px;
+  color: var(--one-bg-color);
+  text-decoration: none;
+  font-weight: bold;
+  margin-right: var(--size-19px);
+  margin-top: 3rem;
+}
+
+/* Media queries */
+/* Media queries */
+/* Media queries */
+/* Media queries */
 /* Media queries */
 
 @media (max-width: 800px) {
