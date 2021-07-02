@@ -1422,6 +1422,9 @@ span.block {
 .integrations_2 {
   background-color: var(--four-bg-color);
 }
+.integrations_3 {
+  background-color: var(--three-bg-color);
+}
 
 .integrations_headings {
   display: flex;
@@ -1438,6 +1441,8 @@ span.block {
 
 .integrations_headings_2 {
   margin-top: 0.4rem;
+  text-align: center;
+  line-height: 1.2;
 }
 
 .integrations_headings_3 {
@@ -2164,6 +2169,9 @@ span.block {
 /* ============================================================================================= */
 /* ============================================================================================= */
 /* ============================================================================================= */
+.navbar_hero_section_btns_group_4 {
+  margin: 0 auto;
+}
 
 .navbar_hero_section_btns_group_3 a:nth-child(1) {
   display: inline-block;
@@ -2187,7 +2195,29 @@ span.block {
   color: var(--main-act-color);
   text-decoration: none;
   font-weight: bold;
+}
+.navbar_hero_section_btns_group_4 a:nth-child(1) {
+  display: inline-block;
+  padding: 13px var(--size-34px);
+  text-align: center;
+  background-color: var(--main-act-color);
+  border-radius: 5px;
+  color: var(--one-bg-color);
+  text-decoration: none;
+  font-weight: bold;
   margin-right: var(--size-19px);
+}
+
+.navbar_hero_section_btns_group_4 a:nth-child(2) {
+  display: inline-block;
+  padding: 13px var(--size-34px);
+  text-align: center;
+  border: 2px solid var(--main-act-color);
+  background-color: transparent;
+  border-radius: 5px;
+  color: var(--main-act-color);
+  text-decoration: none;
+  font-weight: bold;
 }
 
 /* =============================================================================================== */
@@ -2299,10 +2329,129 @@ span.block {
   margin-top: 3rem;
 }
 
-/* Media queries */
-/* Media queries */
-/* Media queries */
-/* Media queries */
+.communication_stratigy_content_titles_2 {
+  /* border: 2px solid red; */
+  margin-bottom: 1rem;
+}
+
+.communication_stratigy_content_titles_2_title {
+  margin: 0 0;
+  margin-bottom: 1rem;
+}
+
+.communication_stratigy_content_titles_2_subtitle {
+  font-weight: 400;
+  color: var(--main-txt-color);
+  margin-top: 0;
+}
+
+/* =============================================================================================== */
+/* ===================================== google_workspace_integration ============================================ */
+/* =============================================================================================== */
+.google_workspace_integration {
+  margin: 70px 0;
+}
+
+.google_workspace_integration_card {
+  /* border: 2px solid red; */
+  margin-bottom: 2rem;
+}
+
+.google_workspace_integration_titles_image {
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+  margin-top: 2.2rem;
+}
+
+.google_workspace_integration_titles {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.google_workspace_integration_title {
+  line-height: 1.2;
+}
+
+.google_workspace_integration_cards {
+  text-align: left;
+}
+
+.google_workspace_integration_card_title {
+  display: flex;
+  align-items: center;
+  margin: 0 0;
+  margin-bottom: 0.8rem;
+}
+.google_workspace_integration_card_title_img {
+  margin-right: 0.2rem;
+}
+
+.google_workspace_integration_card_subtitle {
+  font-weight: 400;
+  margin: 0 0;
+}
+
+/* =============================================================================================== */
+/* ===================================== get_quick ============================================ */
+/* =============================================================================================== */
+.get_quick_titles_title {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.get_quick_card_titles {
+  padding: 1.2rem 1rem;
+  border-radius: 5px;
+}
+
+.get_quick_card_titles_title {
+  margin: 0 0;
+  margin-bottom: 1.5rem;
+}
+.get_quick_card_titles_subtitle {
+  margin: 0 0;
+  font-weight: 400;
+  color: var(--main-txt-color);
+}
+.get_quick_card_titles_subtitle_2 {
+  margin: 0 0;
+  margin-top: 1.5rem;
+  font-weight: 400;
+  color: var(--main-txt-color);
+}
+
+.get_quick_card_list {
+  list-style-type: none;
+  margin-top: 0.5rem;
+}
+
+.get_quick_card_list li {
+  margin: 1.8rem 0;
+}
+
+.get_quick_card_2 {
+  margin: 4rem 0;
+  text-align: left;
+}
+
+.get_quick_card_2_subtitle {
+  font-weight: 400;
+}
+
+/* =============================================================================================== */
+/* =============================================================================================== */
+/* =============================================================================================== */
+/* =============================================================================================== */
+/* =============================================================================================== */
+/* =============================================================================================== */
+/* ===================================== Media queries ============================================ */
+/* =============================================================================================== */
+/* =============================================================================================== */
+/* =============================================================================================== */
+/* =============================================================================================== */
+/* =============================================================================================== */
+/* =============================================================================================== */
 /* Media queries */
 
 @media (max-width: 800px) {
