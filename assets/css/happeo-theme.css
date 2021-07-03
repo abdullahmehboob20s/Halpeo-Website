@@ -1679,6 +1679,43 @@ span.block {
   width: 100%;
 }
 
+.channel_engagement_list {
+  list-style-type: none;
+  margin-top: 1.5rem;
+}
+
+.serach_lists_title {
+  font-weight: 500;
+  margin: 0 0;
+  margin-top: 2rem;
+  color: var(--main-txt-color);
+}
+
+.serach_lists {
+  list-style-type: none;
+}
+.serach_lists li {
+  display: flex;
+  align-items: center;
+}
+
+.serach_lists li img {
+  width: 16px;
+  margin-right: 0.2rem;
+}
+
+.serach_lists li h6 {
+  font-weight: 500;
+  margin: 0 0;
+  color: var(--main-txt-color);
+}
+
+.all_this_data_subtitle {
+  font-weight: 500;
+  color: var(--main-txt-color);
+  margin-bottom: 2rem;
+}
+
 /* =============================================================================================== */
 /* ===================================== tired_of_scrolling ============================================ */
 /* =============================================================================================== */
@@ -2437,6 +2474,167 @@ span.block {
 
 .get_quick_card_2_subtitle {
   font-weight: 400;
+}
+
+/* ============================================================================================= */
+/* ============================================================================================= */
+/* ============================================================================================= */
+/* ============================================================================================= */
+/* ============================================================================================= */
+/* ======================================== group-4-index-1 ========================================  */
+/* ============================================================================================= */
+/* ============================================================================================= */
+/* ============================================================================================= */
+/* ============================================================================================= */
+.organization_challenges_content_title_2_image {
+  width: 200px;
+}
+
+.organization_challenges_content_title_2_image_2 {
+  width: 60px;
+}
+
+.user_data_security {
+  text-align: left;
+}
+.user_data_list {
+  list-style-type: none;
+}
+
+.user_data_list li {
+  display: flex;
+  align-items: center;
+}
+
+.user_data_list li img {
+  width: 16px;
+  margin-right: 0.5rem;
+}
+
+.user_data_list li h6 {
+  font-weight: 400;
+}
+
+.gdpr_image {
+  width: 60px;
+}
+
+.gdpr_title {
+  width: 100%;
+  max-width: 600px;
+}
+
+.gdpr_subtitle {
+  text-align: left;
+  width: 100%;
+  max-width: 600px;
+}
+.gdpr_list {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.gdpr_list li h6 {
+  margin: 0 0;
+}
+
+.sso_titles_wrapper {
+  margin-bottom: 2rem;
+  /* border: 2px solid red; */
+}
+
+.sso_subtitle {
+  font-weight: 400;
+  color: var(--main-txt-color);
+  margin-top: 0.5rem;
+}
+
+/* ============================================================================================= */
+/* ============================================================================================= */
+/* ============================================================================================= */
+/* ============================================================================================= */
+/* ============================================================================================= */
+/* ======================================== group-4-index-2 ========================================  */
+/* ============================================================================================= */
+/* ============================================================================================= */
+/* ============================================================================================= */
+/* ============================================================================================= */
+
+.mt-2 {
+  margin-top: 2rem;
+}
+
+.what_happens_titles {
+  text-align: center;
+}
+
+.what_happens_title {
+  line-height: 1.1;
+}
+
+.what_happens_subtitle {
+  font-weight: 500;
+  margin-bottom: 1.5rem;
+  font-size: 1.3rem;
+}
+
+.what_happens_titles_btn {
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+.what_happens_cards {
+  margin-top: 4rem;
+}
+.what_happens_card {
+  text-align: left;
+}
+
+.what_happens_card_subtitle {
+  font-weight: 500;
+  margin-top: 2rem;
+  color: var(--main-txt-color);
+}
+
+.happeo_exp_titles {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.happeo_exp_subtitle {
+  font-weight: 500;
+  color: var(--main-txt-color);
+}
+
+.happeo_exp_card {
+  text-align: left;
+}
+
+.happeo_exp_card_title {
+  margin: 0 0;
+  margin-bottom: 0.8rem;
+}
+
+.happeo_exp_card_subtitle {
+  margin: 0 0;
+  font-weight: 500;
+  color: var(--main-txt-color);
+}
+
+.channel_engagement {
+  border-radius: 5px;
+  padding: 0.5rem 1rem;
+  margin-top: 1.5rem;
+}
+
+.channel_engagement_title {
+  margin: 0 0;
+  margin-bottom: 0.5rem;
+}
+.channel_engagement_subtitle {
+  margin: 0 0;
+  font-weight: 500;
+  color: var(--main-txt-color);
+  margin-bottom: 0.5rem;
 }
 
 /* =============================================================================================== */
