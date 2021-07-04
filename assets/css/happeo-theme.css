@@ -686,6 +686,15 @@ span.block {
   position: relative;
   /* border: 2px solid red; */
 }
+.hero_wrapper_image_2 {
+  display: block;
+  width: 90%;
+  max-width: 800px;
+  margin: 0 auto;
+  z-index: 1000000;
+  position: relative;
+  margin-top: 3rem;
+}
 
 /* =============================================================================================== */
 /* =============================================================================================== */
@@ -710,6 +719,10 @@ span.block {
 .organization_challenges_content_title_2 {
   line-height: 1.1;
   margin-bottom: 2.5rem;
+}
+.organization_challenges_content_title_3 {
+  line-height: 1.1;
+  margin-bottom: 2rem;
 }
 .organization_challenges_content_subtitle {
   font-weight: 400;
@@ -1291,6 +1304,9 @@ span.block {
 .organization_challenges_index_2_content {
   flex: 1;
 }
+.organization_challenges_index_2_content_2 {
+  flex: 1;
+}
 
 .organization_challenges_index_2_content h6 {
   color: var(--main-txt-color);
@@ -1307,6 +1323,11 @@ span.block {
 .organization_challenges_title {
   margin-top: 0;
   line-height: 1.1;
+}
+.organization_challenges_title_2 {
+  margin-top: 0;
+  line-height: 1.1;
+  margin-bottom: 3rem;
 }
 .organization_challenges_subtitle {
   margin-top: 0;
@@ -2843,6 +2864,245 @@ span.block {
 }
 
 /* =============================================================================================== */
+/* ===================================== hapeo_blog_topics_descriptions ========================== */
+/* =============================================================================================== */
+.hapeo_blog_topics_descriptions {
+  max-width: 850px;
+  width: 85%;
+  margin: 0 auto;
+  margin-top: 4rem;
+}
+.hapeo_blog_topics_description {
+  font-weight: 400;
+  color: var(--main-txt-color);
+  margin: 0 0;
+  margin-bottom: 2rem;
+}
+.hapeo_blog_topics_description_2 {
+  font-weight: 400;
+  color: var(--main-txt-color);
+  margin: 0 0;
+}
+
+.improve_productivity {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 5rem;
+  flex-wrap: wrap;
+}
+
+.assessment_title {
+  margin-top: 5rem;
+  margin-bottom: 2rem;
+  line-height: 1.2;
+}
+.assessment_title_2 {
+  margin-top: 4rem;
+  margin-bottom: 1.5rem;
+}
+.assessment_list {
+  padding-left: 22px;
+  margin-bottom: 2rem;
+}
+.assessment_list li {
+  margin-bottom: 1.5rem;
+  list-style-type: disc;
+}
+.it_was_founded_years {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.text-clr-blue {
+  color: var(--sec-bg-one-color);
+}
+.text-clr-yellow {
+  color: var(--sec-bg-two-color);
+}
+.text-clr-purple {
+  color: var(--sec-bg-five-color);
+}
+.text-clr-green {
+  color: var(--main-act-color);
+}
+
+.it_was_founded_years_titles {
+  max-width: 300px;
+  width: 100%;
+  margin: 1rem auto;
+}
+
+.it_was_founded_years_titles_title {
+  margin: 0 0;
+  line-height: 1;
+  font-size: 3.1rem;
+}
+
+.it_was_founded_years_titles_subtitle {
+  margin: 0 0;
+  font-weight: 400;
+  color: var(--main-txt-color);
+  margin-top: 0.1rem;
+}
+
+.we_value_titles {
+  text-align: center;
+  margin-bottom: 7rem;
+}
+.we_value_titles_title {
+  line-height: 1.1;
+}
+.we_value_titles_subtitle {
+  width: 92%;
+  max-width: 800px;
+  text-align: left;
+  color: var(--main-txt-color);
+  font-weight: 400;
+  margin: 0 auto;
+}
+.we_value_card_titles {
+  margin-top: 2rem;
+}
+.we_value_card_titles_title {
+  margin: 0 0;
+  margin-bottom: 0.6rem;
+}
+.we_value_card_titles_subtitle {
+  font-weight: 400;
+  margin: 0 0;
+  margin-top: 0;
+}
+.we_value_card_titles_subtitle_2 {
+  max-width: 400px;
+  width: 100%;
+  font-weight: 400;
+  margin: 0 0;
+  margin-top: 0;
+  /* border: 2px solid red; */
+}
+.we_value_card_images_wrapper {
+  display: flex;
+  /* border: 2px solid red; */
+  width: 90%;
+  /* height: 750px; */
+  margin-left: auto;
+}
+.we_value_card_images_wrapper_1 {
+  display: flex;
+  flex-direction: column;
+  margin-right: 16px;
+  padding-bottom: 6rem;
+}
+.we_value_card_images_wrapper_2 {
+  display: flex;
+  flex-direction: column;
+  padding-top: 6rem;
+}
+
+.we_value_card_images_wrapper_1 img:nth-child(1) {
+  margin-bottom: 16px;
+  width: 100%;
+  height: 70%;
+}
+.we_value_card_images_wrapper_1 img:nth-child(2) {
+  width: 100%;
+  height: clac(30% -16px);
+}
+
+.we_value_card_images_wrapper_2 img:nth-child(1) {
+  margin-bottom: 16px;
+  width: 100%;
+  height: clac(30% -16px);
+}
+.we_value_card_images_wrapper_2 img:nth-child(2) {
+  width: 100%;
+  height: 70%;
+}
+
+.numbers_and_stuff {
+  margin: 70px 0;
+  /* border: 2px solid red; */
+}
+
+.number_stuff_card_parent {
+  padding-left: 5rem;
+  /* border: 2px solid red; */
+}
+.number_stuff_card {
+  margin-bottom: 2rem;
+}
+
+.number_stuff_card_title {
+  margin: 0 0;
+  line-height: 1;
+  margin-bottom: 1rem;
+  text-align: left;
+}
+
+.number_stuff_card_title sup {
+  color: inherit;
+  font-size: 2rem;
+  font-family: inherit;
+}
+.number_stuff_card_subtitle {
+  margin: 0 0;
+  text-align: left;
+}
+
+.we_value_card_2_wrapper {
+  padding-left: 4rem;
+}
+.we_value_card_2_images_wrapper {
+  height: 700px;
+  display: flex;
+  flex-direction: column;
+}
+.we_value_card_2_images_wrapper_1 {
+  flex: 1;
+  background-color: rgb(216, 216, 216);
+  border-radius: 5px;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+.we_value_card_2_images_wrapper_2 {
+  flex: 1;
+  background-color: rgb(216, 216, 216);
+  border-radius: 5px;
+  width: 100%;
+}
+
+.international_hide_titles {
+  text-align: center;
+}
+
+.international_hide_titles_title {
+  line-height: 1.1;
+}
+
+.international_hide_titles_subtitle {
+  font-weight: 400;
+  color: var(--main-txt-color);
+}
+
+.international_hide_cards {
+  margin-top: 2rem;
+}
+.international_hide_card {
+  text-align: left;
+}
+.international_hide_card_image {
+  width: 100%;
+}
+
+.play_as_team_author {
+  font-weight: 400;
+  color: var(--main-txt-color);
+  margin-top: 2rem;
+}
+
+/* =============================================================================================== */
 /* =============================================================================================== */
 /* =============================================================================================== */
 /* =============================================================================================== */
@@ -2857,7 +3117,35 @@ span.block {
 /* =============================================================================================== */
 /* Media queries */
 
+@media (max-width: 1000px) {
+  .we_value_card_images_wrapper {
+    display: flex;
+    width: 100%;
+    height: auto;
+    margin-left: 0;
+    margin-top: 2rem;
+  }
+
+  .we_value_card_2_wrapper {
+    padding-left: 0rem;
+  }
+
+  .numbers_and_stuff {
+    margin: 40px 0;
+  }
+
+  .number_stuff_card_parent {
+    padding-left: 0rem;
+  }
+}
+
 @media (max-width: 800px) {
+  .it_was_founded_years_titles {
+    max-width: 100%;
+    width: 100%;
+    margin: 1rem auto;
+  }
+
   .footer_social_links {
     padding: 1rem 1rem;
     flex-direction: column;
@@ -2870,6 +3158,9 @@ span.block {
   .footer_social_links_left img {
     margin-right: 0;
     margin: var(--size-16px);
+  }
+  .hapeo_blog_topics_title_image {
+    height: 100%;
   }
 }
 
@@ -2973,12 +3264,13 @@ span.block {
 }
 
 @media (max-width: 500px) {
-  .tired_of_scrolling_2_wrapper h1 {
-    line-height: 1.2;
+  section {
+    /* Mine */
+    padding: 40px 15px;
   }
 
-  .hapeo_blog_topics_title_image {
-    height: 100%;
+  .tired_of_scrolling_2_wrapper h1 {
+    line-height: 1.2;
   }
 
   .hero_blog_titles_2 h1 {
