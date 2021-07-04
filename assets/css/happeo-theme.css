@@ -1725,6 +1725,11 @@ span.block {
   margin-bottom: 2rem;
   background-color: var(--four-bg-color);
 }
+.tired_of_scrolling_3 {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  background-color: var(--two-bg-color);
+}
 
 .tired_of_scrolling_2_wrapper {
   text-align: center;
@@ -2190,6 +2195,9 @@ span.block {
 .four-bg-color {
   background-color: var(--four-bg-color);
 }
+.two-bg-color {
+  background-color: var(--two-bg-color);
+}
 
 .hundred_brands_2 {
   background-color: var(--four-bg-color);
@@ -2637,6 +2645,203 @@ span.block {
   margin-bottom: 0.5rem;
 }
 
+/* ============================================================================================= */
+/* ============================================================================================= */
+/* ============================================================================================= */
+/* ============================================================================================= */
+/* ============================================================================================= */
+/* ======================================== group-5-index-1 ========================================  */
+/* ============================================================================================= */
+/* ============================================================================================= */
+/* ============================================================================================= */
+/* ============================================================================================= */
+
+.happeo_hero_blog_titles {
+  padding: 0 15px;
+}
+.happeo_hero_blog_title {
+  color: var(--main-tit-color);
+  font-weight: 900;
+  text-align: center;
+  margin: 0 0;
+  font-size: var(--size-62px);
+  margin-bottom: 0.5rem;
+}
+
+.happeo_hero_blog_subtitle {
+  text-align: center;
+  width: 90%;
+  max-width: 850px;
+  margin: 0 auto;
+  font-weight: 500;
+  color: var(--main-txt-color);
+}
+.happeo_hero_blog_title_btn_wrapper {
+  text-align: center;
+  margin-top: 1rem;
+}
+.happeo_hero_blog_title_btn {
+  display: inline-block;
+  padding: 13px 30px;
+  background-color: var(--main-act-color);
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  color: var(--one-bg-color);
+}
+
+.happeo_header_logo_wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.happeo_header_logo {
+  width: 180px;
+}
+
+.header_logo_title {
+  border-left: 1.5px solid var(--main-tit-color);
+  margin-left: 1rem;
+  padding-left: 1rem;
+  color: var(--main-txt-color);
+  font-size: 2.1rem;
+  font-weight: 400;
+}
+
+/* =============================================================================================== */
+/* ===================================== hapeo_blog_topics ============================================ */
+/* =============================================================================================== */
+.hapeo_blog_topics {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.hapeo_blog_topics_title {
+  font-weight: 500;
+  font-size: 1.2rem;
+  color: var(--main-txt-color);
+}
+
+.clr-blue {
+  background-color: var(--sec-bg-one-color);
+}
+.clr-red {
+  background-color: var(--sec-bg-three-color);
+}
+.clr-yellow {
+  background-color: var(--sec-bg-two-color);
+}
+.clr-purple {
+  background-color: var(--sec-bg-five-color);
+}
+.clr-green {
+  background-color: var(--sec-bg-four-color);
+}
+.clr-dark-green {
+  background-color: var(--main-txt-color);
+}
+
+.hapeo_blog_topics_btn {
+  margin: 0.5rem;
+  padding: 0.4rem 0.7rem;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 500;
+  color: white;
+  font-size: 0.8rem;
+  border-radius: 3px;
+  line-height: 1;
+}
+/* =============================================================================================== */
+/* ===================================== hapeo_blog_cards ============================================ */
+/* =============================================================================================== */
+.hapeo_blog_card_image img {
+  width: 100%;
+  height: 300px;
+}
+.hapeo_blog_card {
+  border-radius: 5px;
+}
+.hapeo_blog_card.active {
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.hapeo_blog_card_contents {
+  text-align: left;
+  /* border: 2px solid red; */
+  padding: 1rem 2rem;
+  padding-top: 2rem;
+}
+
+.hapeo_blog_card_contents_title {
+  margin: 0 0;
+}
+
+.hapeo_blog_card_contents_subtitle {
+  font-weight: 400;
+  color: var(--main-txt-color);
+  margin: 0 0;
+  margin-top: 0.5rem;
+}
+
+.hapeo_blog_card_contents_btn {
+  display: block;
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+
+/* ============================================================================================= */
+/* ============================================================================================= */
+/* ============================================================================================= */
+/* ============================================================================================= */
+/* ============================================================================================= */
+/* ======================================== group-5-index-2 ========================================  */
+/* ============================================================================================= */
+/* ============================================================================================= */
+/* ============================================================================================= */
+/* ============================================================================================= */
+
+.hero_blog_titles_2 {
+  padding: 0 15px;
+}
+
+.hero_blog_titles_2 h1 {
+  color: var(--main-tit-color);
+  font-weight: 900;
+  text-align: center;
+  font-size: var(--size-64px);
+  line-height: 1;
+  max-width: 1000px;
+  width: 100%;
+  margin: 0 auto;
+  margin-bottom: 1rem;
+}
+
+.hero_blog_titles_2 h6 {
+  text-align: center;
+  width: 90%;
+  max-width: 850px;
+  margin: 0 auto;
+  font-weight: 400;
+  color: var(--main-txt-color);
+  margin-bottom: 4rem;
+}
+
+.hapeo_blog_topics_title_image_wrapper {
+  padding: 0 2rem;
+}
+
+.hapeo_blog_topics_title_image {
+  display: block;
+  width: 100%;
+  max-width: 1100px;
+  height: 600px;
+  margin: 0 auto;
+  border-radius: 0;
+  margin-top: 2rem;
+}
+
 /* =============================================================================================== */
 /* =============================================================================================== */
 /* =============================================================================================== */
@@ -2770,6 +2975,19 @@ span.block {
 @media (max-width: 500px) {
   .tired_of_scrolling_2_wrapper h1 {
     line-height: 1.2;
+  }
+
+  .hapeo_blog_topics_title_image {
+    height: 100%;
+  }
+
+  .hero_blog_titles_2 h1 {
+    font-size: var(--size-46px);
+    line-height: 1.1;
+  }
+
+  .happeo_hero_blog_title {
+    font-size: var(--size-52px);
   }
 
   .hero_section_titles h1 {
