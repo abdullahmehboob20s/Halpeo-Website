@@ -550,6 +550,18 @@ span.block {
   font-weight: 400;
   margin-right: 20px;
 }
+.header_login_btn_2 {
+  display: inline-block;
+  padding: 13px 5px;
+  width: 200px;
+  text-align: center;
+  background-color: var(--main-act-color);
+  border-radius: 5px;
+  color: var(--one-bg-color);
+  text-decoration: none;
+  font-weight: bold;
+  margin-right: 0;
+}
 .header_requets_btn {
   display: inline-block;
   padding: 13px 30px;
@@ -1617,9 +1629,9 @@ span.block {
   background-color: var(--three-bg-color);
 }
 
-.three-bg-color a {
+/* .three-bg-color a {
   color: var(--main-tit-color);
-}
+} */
 
 .navbar_hero_section {
   background: var(--three-bg-color);
@@ -1986,6 +1998,7 @@ span.block {
 .trusted_by_card_content_btn {
   text-decoration: none;
   font-size: 1.5rem;
+  color: var(--main-act-color);
 }
 
 .trusted_by_card_content_image img {
@@ -2002,6 +2015,11 @@ span.block {
 
 .FAQ_titles {
   text-align: center;
+}
+
+.FAQ_title {
+  line-height: 1.1;
+  margin-bottom: 1rem;
 }
 .FAQ_subtitle {
   font-weight: 400;
@@ -2122,6 +2140,10 @@ span.block {
   text-align: center;
 }
 
+.work_from_title {
+  line-height: 1.1;
+}
+
 .work_from_subtitle {
   font-weight: 400;
   color: var(--main-txt-color);
@@ -2131,6 +2153,7 @@ span.block {
   display: flex;
   justify-content: center;
   margin-top: 1rem;
+  flex-wrap: wrap;
   /* display: block; */
 }
 .work_from_image {
@@ -2222,7 +2245,6 @@ span.block {
 
 .hundred_brands_2 {
   background-color: var(--four-bg-color);
-  margin: 2rem 0;
 }
 
 /* ============================================================================================= */
@@ -2235,9 +2257,6 @@ span.block {
 /* ============================================================================================= */
 /* ============================================================================================= */
 /* ============================================================================================= */
-.navbar_hero_section_btns_group_4 {
-  margin: 0 auto;
-}
 
 .navbar_hero_section_btns_group_3 a:nth-child(1) {
   display: inline-block;
@@ -2262,6 +2281,40 @@ span.block {
   text-decoration: none;
   font-weight: bold;
 }
+
+.navbar_hero_section_btns_group_3_2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar_hero_section_btns_group_3_2 a:nth-child(1) {
+  display: inline-block;
+  padding: 13px var(--size-34px);
+  text-align: center;
+  background-color: var(--main-act-color);
+  border-radius: 5px;
+  color: var(--one-bg-color);
+  text-decoration: none;
+  font-weight: bold;
+  margin-right: var(--size-19px);
+}
+
+.navbar_hero_section_btns_group_3_2 a:nth-child(2) {
+  display: inline-block;
+  padding: 13px var(--size-34px);
+  text-align: center;
+  border: 2px solid var(--main-act-color);
+  background-color: transparent;
+  border-radius: 5px;
+  color: var(--main-act-color);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* .navbar_hero_section_btns_group_4 {
+  margin: 0 auto;
+}
 .navbar_hero_section_btns_group_4 a:nth-child(1) {
   display: inline-block;
   padding: 13px var(--size-34px);
@@ -2284,7 +2337,7 @@ span.block {
   color: var(--main-act-color);
   text-decoration: none;
   font-weight: bold;
-}
+} */
 
 /* =============================================================================================== */
 /* ===================================== ready_to_go ============================================ */
@@ -2464,6 +2517,7 @@ span.block {
 .get_quick_titles_title {
   text-align: center;
   margin-bottom: 4rem;
+  line-height: 1.1;
 }
 
 .get_quick_card_titles {
@@ -2628,6 +2682,11 @@ span.block {
 .happeo_exp_titles {
   text-align: center;
   margin-bottom: 2rem;
+}
+
+.happeo_exp_title {
+  line-height: 1.1;
+  margin-bottom: 1rem;
 }
 .happeo_exp_subtitle {
   font-weight: 500;
@@ -3096,10 +3155,50 @@ span.block {
   width: 100%;
 }
 
+.international_hide_card_title_btn {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 1.3rem;
+  color: var(--main-act-color);
+  margin-top: 1rem;
+}
+
 .play_as_team_author {
   font-weight: 400;
   color: var(--main-txt-color);
   margin-top: 2rem;
+}
+
+.happy_to_tell {
+  display: flex;
+  justify-content: center;
+}
+
+/* =============================================================================================== */
+/* =============================================================================================== */
+/* ===================================== trusted_partners_card ============================================ */
+/* =============================================================================================== */
+/* =============================================================================================== */
+.trusted_partners_card {
+  padding: 3rem 5rem;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  text-align: left;
+}
+
+.trusted_partners_card_image {
+  width: 100%;
+}
+
+.trusted_partners_card_title {
+  margin-top: 4rem;
+  line-height: 1.1;
+  margin-bottom: 2rem;
+}
+
+.trusted_partners_card_subtitle {
+  font-weight: 400;
+  color: var(--main-txt-color);
 }
 
 /* =============================================================================================== */
@@ -3264,6 +3363,28 @@ span.block {
 }
 
 @media (max-width: 500px) {
+  .navbar_hero_section_btns_group_3_2 {
+    flex-direction: column;
+  }
+
+  .navbar_hero_section_btns_group_3_2 a:nth-child(1) {
+    margin-right: 0;
+    margin-bottom: var(--size-19px);
+  }
+
+  .international_hide_card_title_btn {
+    margin-top: 0rem;
+  }
+
+  .trusted_partners_card {
+    padding: 2rem 2rem;
+  }
+
+  .trusted_partners_card_title {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+  }
+
   section {
     /* Mine */
     padding: 40px 15px;
