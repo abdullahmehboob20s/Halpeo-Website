@@ -1518,12 +1518,11 @@ span.block {
   font-size: 1.3rem;
 }
 
-.image_background_effect_orange {
-  position: relative;
-  /* border: 2px solid red; */
-}
 .organization_challenges_5 {
   overflow-x: hidden;
+}
+.image_background_effect_orange {
+  position: relative;
 }
 .image_background_effect_orange::after {
   content: "";
@@ -2242,7 +2241,6 @@ span.block {
 .two-bg-color {
   background-color: var(--two-bg-color);
 }
-
 .hundred_brands_2 {
   background-color: var(--four-bg-color);
 }
